@@ -7,7 +7,7 @@
 - Evidence reviewed: `index.html`, `css/styles.css`, `scss/styles.scss`, `js/scripts.js`, `package.json`, `_portfolio-rehab/repo-inventory.json`, GitHub API inventory for 63 public repos, and parallel repo/design scan summaries.
 
 ## Brand
-- Personality: Working lab notebook meets arcade cabinet: practical, curious, builder-led, and a little playful.
+- Personality: Vaporwave engineering arcade: practical, curious, builder-led, neon, and a little surreal without hiding the work.
 - Trust signals: Clear repo count, direct GitHub links, live demo badges, stack chips, verification/readiness notes, and honest archive labels for older projects.
 - Avoid: Generic resume-template copy, flat lists of repo names, corporate polish that hides experimental work, and overclaiming live readiness for hardware-gated or legacy projects.
 
@@ -32,12 +32,12 @@
 - Tradeoffs: Keep the current static serverless repo for deployment simplicity, even though a future Vite rewrite would make generated routes and visual testing cleaner.
 
 ## Visual language
-- Color: Dark ink canvas, off-white text, muted steel panels, brass highlights, acid-cyan links, and restrained warning/status colors.
-- Typography: Existing Lato can stay for low-risk continuity; use tighter hierarchy and smaller card headings for dense repo content.
+- Color: Midnight navy canvas, hot magenta, cyan, violet, sunset peach, mint, and near-white text. Avoid a one-note purple wash by using black glass panels, cream sections, cyan links, and peach/yellow action states.
+- Typography: Existing Lato can stay for low-risk continuity; use oversized hero type, tighter card headings, and all-caps micro-labels to evoke arcade UI without hurting readability.
 - Spacing/layout rhythm: Full-width bands with constrained inner content; dense but readable grids.
 - Shape/radius/elevation: Cards at 6-8px radius, subtle borders, minimal shadow.
 - Motion: Smooth anchor scrolling and light card/filter transitions only.
-- Imagery/iconography: Prefer repo screenshots/assets where available; otherwise use category badges and stack chips rather than decorative illustrations.
+- Imagery/iconography: Use `images/vaporwave-hero.png` as the first-viewport identity asset; prefer repo screenshots/assets where available; otherwise use category badges and stack chips rather than decorative illustrations.
 
 ## Components
 - Existing components to reuse: Header anchors, hero, project section structure, experience timeline, footer social links.
