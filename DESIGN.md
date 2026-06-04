@@ -42,7 +42,7 @@
 ## Components
 - Existing components to reuse: Header anchors, hero, project section structure, experience timeline, footer social links.
 - New/changed components: Stat strip, guided tour stops, case-study panels, repo filter chips, repo cards, demo shelf rows.
-- Variants and states: Featured, interactive demo, supporting project, archive/reference; empty search state; live/static/hardware/narrated demo badges.
+- Variants and states: Featured, supporting project, archive/reference; empty search state; live link, static-ready, multi-device, hardware-gated, install-script, and walkthrough badges.
 - Token/component ownership: `css/styles.css` owns shipped styles for this pass; `scss/styles.scss` is legacy source until the old Gulp/Sass toolchain is modernized.
 
 ## Accessibility
@@ -54,7 +54,7 @@
 
 ## Responsive behavior
 - Supported breakpoints/devices: Mobile portrait through desktop review screens.
-- Layout adaptations: Hero stats and filters wrap; case studies collapse to one column; repo cards use fluid grid tracks.
+- Layout adaptations: Hero stats and filters wrap; case studies collapse to one column; repo cards use fluid grid tracks, content-sized heights, and no more than three visible chips on narrow phones.
 - Touch/hover differences: Hover effects are decorative only; all commands are visible and tappable.
 
 ## Interaction states
@@ -68,7 +68,7 @@
 ## Content voice
 - Tone: Direct, specific, and builder-focused.
 - Terminology: Use "case study", "repo atlas", "demo shelf", "archive", and "walkthrough" consistently.
-- Microcopy rules: Say what a repo does and how to try it; avoid unexplained acronyms in card titles.
+- Microcopy rules: Say what a repo does and how to try it; avoid unexplained acronyms in card titles; never use generator-facing phrases like "portfolio posture" or "evidence" in public card summaries.
 
 ## Implementation constraints
 - Framework/styling system: Existing static HTML, CSS, JavaScript, Bootstrap grid, Font Awesome, and jQuery. No framework migration in this pass.

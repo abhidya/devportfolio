@@ -137,7 +137,7 @@
         stats.innerHTML = [
             ['Repos', data.stats.repoCount],
             ['Categories', data.stats.categoryCount],
-            ['Demos', data.stats.liveDemoCount],
+            ['Live links', data.stats.liveDemoCount],
             ['Case studies', data.stats.featuredCount]
         ].map(function (item) {
             return '<div><dt>' + escapeHtml(item[0]) + '</dt><dd>' + escapeHtml(item[1]) + '</dd></div>';
@@ -162,18 +162,44 @@
         }).join('');
     }
 
-    function chips(items, extraClass) {
-        return '<div class="chip-row">' + (items || []).slice(0, 5).map(function (item) {
+    var demoLabels = {
+        'live-hosted': 'Live link',
+        'static-safe': 'Static-ready',
+        'multi-device': 'Multi-device',
+        'hardware-gated': 'Needs hardware',
+        'script-install': 'Install script',
+        narrated: 'Walkthrough'
+    };
+
+    var riskLabels = {
+        'no obvious run instructions': 'Needs setup notes',
+        'thin README': 'Thin docs',
+        'python repo lacks visible tests': 'No visible tests',
+        'check config/credential hygiene': 'Config-sensitive'
+    };
+
+    function chips(items, extraClass, limit) {
+        return '<div class="chip-row">' + (items || []).filter(Boolean).slice(0, limit || 5).map(function (item) {
             return '<span class="chip ' + (extraClass || '') + '">' + escapeHtml(item) + '</span>';
         }).join('') + '</div>';
     }
 
-    function repoLinks(repo) {
+    function readableDemoKind(kind) {
+        return demoLabels[kind] || kind;
+    }
+
+    function readableRisk(note) {
+        return riskLabels[note] || note;
+    }
+
+    function repoLinks(repo, options) {
+        var demoText = options && options.demoText ? options.demoText : 'Live';
+        var codeText = options && options.codeText ? options.codeText : 'Source';
         var links = [
-            '<a href="' + escapeHtml(repo.githubUrl) + '" target="_blank" rel="noopener">' + icon('github') + ' Code</a>'
+            '<a href="' + escapeHtml(repo.githubUrl) + '" target="_blank" rel="noopener">' + icon('github') + ' ' + escapeHtml(codeText) + '</a>'
         ];
         if (repo.demoUrl) {
-            links.unshift('<a href="' + escapeHtml(repo.demoUrl) + '" target="_blank" rel="noopener">' + icon('external-link') + ' Demo</a>');
+            links.unshift('<a href="' + escapeHtml(repo.demoUrl) + '" target="_blank" rel="noopener">' + icon('external-link') + ' ' + escapeHtml(demoText) + '</a>');
         }
         return '<div class="card-actions">' + links.join('') + '</div>';
     }
@@ -193,10 +219,10 @@
                 '<p><strong>Why it matters:</strong> ' + escapeHtml(repo.why) + '</p>',
                 '<ol>' + steps + '</ol>',
                 '<div class="meta-row">',
-                '<span class="chip">' + escapeHtml(repo.demoKind) + '</span>',
+                '<span class="chip">' + escapeHtml(readableDemoKind(repo.demoKind)) + '</span>',
                 '<span class="chip">' + escapeHtml(repo.category) + '</span>',
                 '</div>',
-                repoLinks(repo),
+                repoLinks(repo, { demoText: 'Demo', codeText: 'Code' }),
                 '</article>'
             ].join('');
         }).join('');
@@ -247,7 +273,8 @@
         if (!queryMatches) return false;
 
         if (filter === 'All') return true;
-        if (filter === 'Live Demo') return Boolean(repo.demoUrl || repo.demoKind === 'static-safe' || repo.demoKind === 'multi-device');
+        if (filter === 'Live Link') return Boolean(repo.demoUrl);
+        if (filter === 'Runnable') return Boolean(repo.demoUrl || repo.demoKind === 'static-safe' || repo.demoKind === 'multi-device');
         if (filter === 'Featured') return repo.featured;
         if (filter === 'Games') return /game/i.test(repo.category) || repo.demoKind === 'multi-device';
         if (filter === 'AI / ML') return /AI|Machine learning/i.test(repo.category);
@@ -274,14 +301,16 @@
         }
 
         grid.innerHTML = repos.map(function (repo) {
+            var status = readableDemoKind(repo.demoKind);
+            var primaryChips = [status, repo.category].concat(repo.stack.slice(0, 2));
             var risks = repo.riskNotes && repo.riskNotes.length
-                ? '<div class="chip-row"><span class="chip risk-chip">' + escapeHtml(repo.riskNotes[0]) + '</span></div>'
+                ? '<p class="repo-note">' + icon('exclamation-circle') + ' ' + escapeHtml(readableRisk(repo.riskNotes[0])) + '</p>'
                 : '';
             return [
                 '<article class="repo-card" data-category="' + escapeHtml(repo.category) + '">',
-                chips([repo.role, repo.demoKind].concat(repo.stack.slice(0, 3))),
+                chips(primaryChips, 'repo-chip', 4),
                 '<h3>' + escapeHtml(repo.title) + '</h3>',
-                '<p>' + escapeHtml(repo.description) + '</p>',
+                '<p class="repo-summary">' + escapeHtml(repo.description) + '</p>',
                 risks,
                 repoLinks(repo),
                 '</article>'

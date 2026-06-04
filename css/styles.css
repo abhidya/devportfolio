@@ -534,18 +534,37 @@ header a:focus {
 
 .repo-card {
     display: flex;
-    min-height: 290px;
+    min-height: 250px;
     padding: 18px;
     flex-direction: column;
 }
 
 .repo-card h3 {
-    min-height: 50px;
+    min-height: auto;
 }
 
 .repo-card p {
-    flex: 1;
     margin: 12px 0;
+}
+
+.repo-card .repo-summary {
+    flex: 0 1 auto;
+}
+
+.repo-note {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    align-self: flex-start;
+    margin: 2px 0 0;
+    padding: 5px 8px;
+    border: 1px solid rgba(242, 189, 87, 0.44);
+    border-radius: 999px;
+    color: #f2bd57;
+    background: rgba(242, 189, 87, 0.08);
+    font-size: 0.82em;
+    font-weight: 900;
+    line-height: 1.2;
 }
 
 .card-actions {
@@ -1161,6 +1180,31 @@ header a:focus {
     color: #d8d7ff;
 }
 
+.repo-card {
+    min-height: 0;
+    gap: 10px;
+}
+
+.repo-card h3 {
+    min-height: 0;
+}
+
+.repo-card .repo-summary {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.repo-note {
+    color: var(--sun);
+    border-color: rgba(255, 209, 102, 0.44);
+    background: rgba(255, 209, 102, 0.09);
+    box-shadow: inset 0 0 14px rgba(255, 209, 102, 0.08);
+}
+
+.repo-card .card-actions {
+    margin-top: 6px;
+}
+
 .tour-stop ul,
 .tour-stop li {
     color: #e9ddff;
@@ -1305,6 +1349,37 @@ footer {
             -2px -1px 0 rgba(40, 244, 255, 0.52),
             0 0 24px rgba(255, 59, 191, 0.45);
     }
+
+    .repo-grid {
+        gap: 12px;
+    }
+
+    .repo-card {
+        min-height: 0;
+        padding: 16px;
+    }
+
+    .repo-card h3 {
+        font-size: 1.12em;
+    }
+
+    .repo-card .repo-summary {
+        font-size: 0.98em;
+    }
+
+    .repo-card .chip-row {
+        gap: 6px;
+    }
+
+    .repo-card .chip {
+        min-height: 24px;
+        padding: 3px 7px;
+        font-size: 0.72em;
+    }
+
+    .repo-note {
+        font-size: 0.74em;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1322,5 +1397,14 @@ footer {
 
     .stat-strip {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .repo-card .chip-row .chip:nth-child(n+4) {
+        display: none;
+    }
+
+    .repo-card .card-actions a {
+        min-height: 38px;
+        padding: 8px 10px;
     }
 }

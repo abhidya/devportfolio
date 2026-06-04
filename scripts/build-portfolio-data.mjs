@@ -77,6 +77,60 @@ const curated = {
   },
 };
 
+const portfolioDescriptions = {
+  Asymptomatix:
+    "Static browser experiment for visualizing symptom and location signals; best reviewed as a UI walkthrough because parts depend on older external services.",
+  Chameleon:
+    "Browser-hosted party game for secret prompts and shared-screen play, designed to be opened directly as a static page.",
+  ChickenCoop:
+    "Unity game prototype with project assets and gameplay direction, best shown through editor/build walkthrough notes.",
+  "dynamics-LCS-automater":
+    "Selenium automation prototype for Microsoft Dynamics Lifecycle Services workflows, framed as authenticated-browser automation code.",
+  eggBreakers:
+    "Roblox prototype with design notes, validation artifacts, and a documented egg-breaking game loop.",
+  ForConner:
+    "One-page browser art experiment with a quick static demo surface and small JavaScript animation logic.",
+  GroanTubeHero:
+    "Roblox game foundation with design direction and implementation notes for a rhythm/action prototype.",
+  JackboxAIAssistant:
+    "Browser assistant and userscript flow for Jackbox-style games, with a static UI and connector code to inspect.",
+  MeraVazeerKon:
+    "Early placeholder for a social game idea, kept as archive context rather than a runnable demo.",
+  "ml-c-vsSnek":
+    "Small algorithm practice repo comparing Python and C++ approaches to self-dividing number logic.",
+  Movies_ETL:
+    "Notebook ETL project that cleans and joins movie data for analysis; best viewed as a data pipeline walkthrough.",
+  serabunni:
+    "Static arcade-style web project with game pages and a lightweight hosted demo surface.",
+  spamdetectpublicdata:
+    "Notebook and data artifact for spam-detection experiments using public datasets.",
+  "stock-analysis":
+    "Excel/VBA analysis artifact for stock data, useful as spreadsheet automation and archive context.",
+  "Temu-order-calculator":
+    "Tiny utility repo for calculating Temu order totals, kept as a minimal archive entry.",
+  TemuOrderScraper:
+    "Static web utility for exploring Temu order data flows, best shown through the HTML demo and source walkthrough.",
+};
+
+const categoryFallbacks = {
+  "Archive / learning artifact":
+    "Older learning artifact kept for context in the public archive, with value mainly in the source history and notes.",
+  "Games and interactive apps":
+    "Interactive project in the games lane, best evaluated by trying the browser build or reviewing the gameplay loop.",
+  "Automation and data pipelines":
+    "Automation or data workflow project, best reviewed through setup notes, source code, and safety constraints.",
+  "Web apps and frontend":
+    "Frontend project with a static or browser-first surface that can be inspected without a server-heavy setup.",
+  "Machine learning and data science":
+    "Data or ML project best shown as a notebook, model, or pipeline walkthrough with reproducibility notes.",
+  "AI-assisted game/tooling":
+    "Creative tooling project that connects AI-assisted workflows with game or asset-production systems.",
+  "Systems and algorithms":
+    "Algorithm or systems exercise that shows implementation practice more than a polished product surface.",
+  "Backend services and developer tools":
+    "Developer-facing service or utility best evaluated by reading setup notes and running the local entrypoint.",
+};
+
 const tour = [
   {
     id: "systems",
@@ -125,9 +179,11 @@ function demoKind(repo) {
 
 function friendlyDescription(repo) {
   if (curated[repo.name]) return curated[repo.name].outcome;
+  if (portfolioDescriptions[repo.name]) return portfolioDescriptions[repo.name];
   if (repo.description) return repo.description;
-  const stack = repo.stack.length ? repo.stack.join(", ") : "source";
-  return `${repo.category} repo with ${repo.portfolioRole} portfolio posture and ${stack} evidence.`;
+  const fallback = categoryFallbacks[repo.category] || "Public repo kept in the portfolio archive with source and notes available for review.";
+  if (!repo.stack.length) return fallback;
+  return `${fallback} Stack signals: ${repo.stack.slice(0, 3).join(", ")}.`;
 }
 
 const repos = inventory.map((repo) => ({
@@ -167,7 +223,7 @@ const caseStudies = caseStudyNames
   .filter(Boolean);
 
 const categories = [...new Set(repos.map((repo) => repo.category))].sort();
-const liveDemoCount = repos.filter((repo) => repo.demoUrl || ["static-safe", "multi-device"].includes(repo.demoKind)).length;
+const liveDemoCount = repos.filter((repo) => repo.demoUrl).length;
 const data = {
   generatedAt,
   owner: {
@@ -183,7 +239,7 @@ const data = {
     categoryCount: categories.length,
   },
   categories,
-  filters: ["All", "Live Demo", "Featured", "Games", "AI / ML", "Automation", "Web", "Backend", "Archive"],
+  filters: ["All", "Live Link", "Runnable", "Featured", "Games", "AI / ML", "Automation", "Web", "Backend", "Archive"],
   tour,
   caseStudies,
   repos,

@@ -8,7 +8,7 @@
   },
   "stats": {
     "repoCount": 63,
-    "liveDemoCount": 25,
+    "liveDemoCount": 16,
     "featuredCount": 8,
     "categoryCount": 8
   },
@@ -24,7 +24,8 @@
   ],
   "filters": [
     "All",
-    "Live Demo",
+    "Live Link",
+    "Runnable",
     "Featured",
     "Games",
     "AI / ML",
@@ -492,7 +493,7 @@
     {
       "name": "Asymptomatix",
       "title": "Asymptomatix",
-      "description": "Web apps and frontend repo with interactive demo portfolio posture and static-web evidence.",
+      "description": "Static browser experiment for visualizing symptom and location signals; best reviewed as a UI walkthrough because parts depend on older external services.",
       "category": "Web apps and frontend",
       "role": "interactive demo",
       "maturity": "medium",
@@ -575,7 +576,7 @@
     {
       "name": "Chameleon",
       "title": "Chameleon",
-      "description": "Games and interactive apps repo with interactive demo portfolio posture and static-web evidence.",
+      "description": "Browser-hosted party game for secret prompts and shared-screen play, designed to be opened directly as a static page.",
       "category": "Games and interactive apps",
       "role": "interactive demo",
       "maturity": "low",
@@ -601,7 +602,7 @@
     {
       "name": "ChickenCoop",
       "title": "ChickenCoop",
-      "description": "Games and interactive apps repo with supporting project portfolio posture and node, static-web, unity evidence.",
+      "description": "Unity game prototype with project assets and gameplay direction, best shown through editor/build walkthrough notes.",
       "category": "Games and interactive apps",
       "role": "supporting project",
       "maturity": "medium",
@@ -779,7 +780,7 @@
     {
       "name": "dynamics-LCS-automater",
       "title": "dynamics LCS automater",
-      "description": "Automation and data pipelines repo with archive/reference portfolio posture and source evidence.",
+      "description": "Selenium automation prototype for Microsoft Dynamics Lifecycle Services workflows, framed as authenticated-browser automation code.",
       "category": "Automation and data pipelines",
       "role": "archive/reference",
       "maturity": "low",
@@ -804,7 +805,7 @@
     {
       "name": "eggBreakers",
       "title": "eggBreakers",
-      "description": "Archive / learning artifact repo with supporting project portfolio posture and source evidence.",
+      "description": "Roblox prototype with design notes, validation artifacts, and a documented egg-breaking game loop.",
       "category": "Archive / learning artifact",
       "role": "supporting project",
       "maturity": "medium",
@@ -878,7 +879,7 @@
     {
       "name": "ForConner",
       "title": "ForConner",
-      "description": "Web apps and frontend repo with interactive demo portfolio posture and static-web evidence.",
+      "description": "One-page browser art experiment with a quick static demo surface and small JavaScript animation logic.",
       "category": "Web apps and frontend",
       "role": "interactive demo",
       "maturity": "low",
@@ -932,7 +933,7 @@
     {
       "name": "GroanTubeHero",
       "title": "GroanTubeHero",
-      "description": "AI-assisted game/tooling repo with supporting project portfolio posture and roblox evidence.",
+      "description": "Roblox game foundation with design direction and implementation notes for a rhythm/action prototype.",
       "category": "AI-assisted game/tooling",
       "role": "supporting project",
       "maturity": "medium",
@@ -1061,7 +1062,7 @@
     {
       "name": "JackboxAIAssistant",
       "title": "JackboxAIAssistant",
-      "description": "Automation and data pipelines repo with interactive demo portfolio posture and node, static-web evidence.",
+      "description": "Browser assistant and userscript flow for Jackbox-style games, with a static UI and connector code to inspect.",
       "category": "Automation and data pipelines",
       "role": "interactive demo",
       "maturity": "medium",
@@ -1291,7 +1292,7 @@
     {
       "name": "MeraVazeerKon",
       "title": "MeraVazeerKon",
-      "description": "Archive / learning artifact repo with archive/reference portfolio posture and source evidence.",
+      "description": "Early placeholder for a social game idea, kept as archive context rather than a runnable demo.",
       "category": "Archive / learning artifact",
       "role": "archive/reference",
       "maturity": "low",
@@ -1348,7 +1349,7 @@
     {
       "name": "ml-c-vsSnek",
       "title": "ml c vsSnek",
-      "description": "Systems and algorithms repo with archive/reference portfolio posture and cpp evidence.",
+      "description": "Small algorithm practice repo comparing Python and C++ approaches to self-dividing number logic.",
       "category": "Systems and algorithms",
       "role": "archive/reference",
       "maturity": "low",
@@ -1405,7 +1406,7 @@
     {
       "name": "Movies_ETL",
       "title": "Movies ETL",
-      "description": "Machine learning and data science repo with archive/reference portfolio posture and notebook evidence.",
+      "description": "Notebook ETL project that cleans and joins movie data for analysis; best viewed as a data pipeline walkthrough.",
       "category": "Machine learning and data science",
       "role": "archive/reference",
       "maturity": "low",
@@ -1655,7 +1656,7 @@
     {
       "name": "serabunni",
       "title": "serabunni",
-      "description": "Games and interactive apps repo with interactive demo portfolio posture and static-web evidence.",
+      "description": "Static arcade-style web project with game pages and a lightweight hosted demo surface.",
       "category": "Games and interactive apps",
       "role": "interactive demo",
       "maturity": "medium",
@@ -1712,7 +1713,7 @@
     {
       "name": "spamdetectpublicdata",
       "title": "spamdetectpublicdata",
-      "description": "Machine learning and data science repo with supporting project portfolio posture and notebook evidence.",
+      "description": "Notebook and data artifact for spam-detection experiments using public datasets.",
       "category": "Machine learning and data science",
       "role": "supporting project",
       "maturity": "medium",
@@ -1740,7 +1741,7 @@
     {
       "name": "stock-analysis",
       "title": "stock analysis",
-      "description": "Archive / learning artifact repo with archive/reference portfolio posture and spreadsheet evidence.",
+      "description": "Excel/VBA analysis artifact for stock data, useful as spreadsheet automation and archive context.",
       "category": "Archive / learning artifact",
       "role": "archive/reference",
       "maturity": "low",
@@ -1794,7 +1795,7 @@
     {
       "name": "Temu-order-calculator",
       "title": "Temu order calculator",
-      "description": "Archive / learning artifact repo with archive/reference portfolio posture and source evidence.",
+      "description": "Tiny utility repo for calculating Temu order totals, kept as a minimal archive entry.",
       "category": "Archive / learning artifact",
       "role": "archive/reference",
       "maturity": "low",
@@ -1820,7 +1821,7 @@
     {
       "name": "TemuOrderScraper",
       "title": "TemuOrderScraper",
-      "description": "Web apps and frontend repo with interactive demo portfolio posture and static-web evidence.",
+      "description": "Static web utility for exploring Temu order data flows, best shown through the HTML demo and source walkthrough.",
       "category": "Web apps and frontend",
       "role": "interactive demo",
       "maturity": "low",
