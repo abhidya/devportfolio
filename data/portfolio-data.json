@@ -1,0 +1,2137 @@
+{
+  "generatedAt": "2026-06-04T01:37:27.738Z",
+  "owner": {
+    "name": "Manny Bhidya",
+    "github": "https://github.com/abhidya",
+    "linkedin": "https://www.linkedin.com/in/abhidya/",
+    "headline": "Developer portfolio across systems, games, data, automation, and AI-assisted tooling"
+  },
+  "stats": {
+    "repoCount": 63,
+    "liveDemoCount": 25,
+    "featuredCount": 8,
+    "categoryCount": 8
+  },
+  "categories": [
+    "AI-assisted game/tooling",
+    "Archive / learning artifact",
+    "Automation and data pipelines",
+    "Backend services and developer tools",
+    "Games and interactive apps",
+    "Machine learning and data science",
+    "Systems and algorithms",
+    "Web apps and frontend"
+  ],
+  "filters": [
+    "All",
+    "Live Demo",
+    "Featured",
+    "Games",
+    "AI / ML",
+    "Automation",
+    "Web",
+    "Backend",
+    "Archive"
+  ],
+  "tour": [
+    {
+      "id": "systems",
+      "title": "Inspect systems",
+      "copy": "Product-shaped repos with architecture, deployment, and maintainability signals.",
+      "repos": [
+        "CustomCard",
+        "WorldPrize",
+        "WallDisplay",
+        "nano-dlna"
+      ]
+    },
+    {
+      "id": "play",
+      "title": "Play demos",
+      "copy": "Static-safe and browser-first projects visitors can try without credentials.",
+      "repos": [
+        "CarryOkie",
+        "Karachi-Coup",
+        "Wazir",
+        "Chameleon",
+        "serabunni"
+      ]
+    },
+    {
+      "id": "game-tools",
+      "title": "Explore game tooling",
+      "copy": "Roblox, Unity, and asset-driven workflows where automation meets creative tools.",
+      "repos": [
+        "RobloxAIDev",
+        "GroanTubeHero",
+        "eggBreakers",
+        "ChickenCoop"
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Trace the data/ML origin",
+      "copy": "Older research, notebooks, classifiers, and data-cleaning work framed as the learning arc.",
+      "repos": [
+        "ML-for-Software-Engineering",
+        "microbiology_malaria",
+        "Koth-character-identifier",
+        "Movies_ETL"
+      ]
+    },
+    {
+      "id": "automation",
+      "title": "Review practical automations",
+      "copy": "Small utilities, scrapers, and scripts best presented with careful setup and safety notes.",
+      "repos": [
+        "Safeway-Coupon-Auto-Clipper",
+        "UTK_Prints",
+        "Jochen2Canvas",
+        "aws-python-lambdas"
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "name": "CustomCard",
+      "title": "AI greeting-card production system",
+      "description": "Turns customer intent into printable card concepts with a modern React/Vite workflow and production-minded demo data.",
+      "category": "Web apps and frontend",
+      "role": "featured case study",
+      "maturity": "high",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://customcard-three.vercel.app",
+      "githubUrl": "https://github.com/abhidya/CustomCard",
+      "language": "TypeScript",
+      "stack": [
+        "docker",
+        "node",
+        "react",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "AI product",
+        "React",
+        "Vite",
+        "Docker"
+      ],
+      "updatedAt": "2026-06-04T00:59:02Z",
+      "pushedAt": "2026-06-04T00:58:59Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "Turns customer intent into printable card concepts with a modern React/Vite workflow and production-minded demo data.",
+      "why": "Shows product thinking, AI workflow design, and frontend execution in one inspectable app.",
+      "walkthrough": [
+        "Start with seeded demo data",
+        "Inspect the card workflow",
+        "Review print-production constraints"
+      ]
+    },
+    {
+      "name": "CarryOkie",
+      "title": "Serverless karaoke room",
+      "description": "A static-first karaoke room with QR pairing, phones as remotes, WebRTC/P2P coordination, and cast-oriented playback.",
+      "category": "Games and interactive apps",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "multi-device",
+      "demoUrl": "https://abhidya.github.io/CarryOkie/",
+      "githubUrl": "https://github.com/abhidya/CarryOkie",
+      "language": "HTML",
+      "stack": [
+        "node",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "P2P",
+        "WebRTC",
+        "Static app",
+        "Media"
+      ],
+      "updatedAt": "2026-05-31T04:31:53Z",
+      "pushedAt": "2026-05-31T04:30:41Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "A static-first karaoke room with QR pairing, phones as remotes, WebRTC/P2P coordination, and cast-oriented playback.",
+      "why": "Demonstrates real-time UX, multi-device orchestration, and deployable static architecture.",
+      "walkthrough": [
+        "Open the room",
+        "Pair a phone or second tab",
+        "Walk through queue and playback control"
+      ]
+    },
+    {
+      "name": "WorldPrize",
+      "title": "World ID protected instant-win demo",
+      "description": "A polished web monorepo for a protected promotion/free-entry style product demo.",
+      "category": "Automation and data pipelines",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "low",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://world-prize.vercel.app",
+      "githubUrl": "https://github.com/abhidya/WorldPrize",
+      "language": "TypeScript",
+      "stack": [
+        "node"
+      ],
+      "tags": [
+        "Product demo",
+        "Identity",
+        "Monorepo"
+      ],
+      "updatedAt": "2026-05-20T05:46:03Z",
+      "pushedAt": "2026-05-20T05:45:59Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "A polished web monorepo for a protected promotion/free-entry style product demo.",
+      "why": "Strong systems narrative: identity gate, product flow, docs, and deployment-ready web structure.",
+      "walkthrough": [
+        "Open the live demo",
+        "Review the eligibility flow",
+        "Read the architecture notes"
+      ]
+    },
+    {
+      "name": "Karachi-Coup",
+      "title": "Culturally themed multiplayer browser game",
+      "description": "A Vite/React TypeScript game with rules, flow, and a static-friendly demo surface.",
+      "category": "Games and interactive apps",
+      "role": "featured case study",
+      "maturity": "high",
+      "demoPotential": "high",
+      "demoKind": "multi-device",
+      "demoUrl": "https://abhidya.github.io/Karachi-Coup/",
+      "githubUrl": "https://github.com/abhidya/Karachi-Coup",
+      "language": "TypeScript",
+      "stack": [
+        "node",
+        "react",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "Game",
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "updatedAt": "2026-05-30T19:19:20Z",
+      "pushedAt": "2026-05-30T19:19:16Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "A Vite/React TypeScript game with rules, flow, and a static-friendly demo surface.",
+      "why": "Shows how playful ideas become maintainable browser game systems.",
+      "walkthrough": [
+        "Play the browser demo",
+        "Inspect game rules",
+        "Compare with Wazir as a sibling design"
+      ]
+    },
+    {
+      "name": "Wazir",
+      "title": "Peer-assisted social deduction game",
+      "description": "A modern Vite/React game with live demo intent and multiplayer/social interaction framing.",
+      "category": "Games and interactive apps",
+      "role": "featured case study",
+      "maturity": "high",
+      "demoPotential": "high",
+      "demoKind": "multi-device",
+      "demoUrl": "https://abhidya.github.io/Wazir/",
+      "githubUrl": "https://github.com/abhidya/Wazir",
+      "language": "JavaScript",
+      "stack": [
+        "node",
+        "react",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "Game",
+        "P2P",
+        "React",
+        "Vite"
+      ],
+      "updatedAt": "2026-05-21T04:51:05Z",
+      "pushedAt": "2026-05-21T04:51:01Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "A modern Vite/React game with live demo intent and multiplayer/social interaction framing.",
+      "why": "Good example of shipping compact, playable, culturally specific web experiences.",
+      "walkthrough": [
+        "Open the demo",
+        "Start a local round",
+        "Review multiplayer/readiness notes"
+      ]
+    },
+    {
+      "name": "RobloxAIDev",
+      "title": "AI-assisted Roblox creation pipeline",
+      "description": "A tooling-heavy repo for asset-driven Roblox generation, headless assembly, and validation workflows.",
+      "category": "AI-assisted game/tooling",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/RobloxAIDev",
+      "language": "JavaScript",
+      "stack": [
+        "roblox"
+      ],
+      "tags": [
+        "Roblox",
+        "AI tooling",
+        "Automation"
+      ],
+      "updatedAt": "2026-06-04T01:01:57Z",
+      "pushedAt": "2026-06-04T01:01:52Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "A tooling-heavy repo for asset-driven Roblox generation, headless assembly, and validation workflows.",
+      "why": "Shows advanced automation around creative tools, not just app CRUD.",
+      "walkthrough": [
+        "Read the pipeline overview",
+        "Inspect Rojo/project files",
+        "Review validation scripts"
+      ]
+    },
+    {
+      "name": "WallDisplay",
+      "title": "Local media control plane",
+      "description": "A multi-surface media stack combining Python services, Docker, web UI, and mobile/control surfaces.",
+      "category": "Machine learning and data science",
+      "role": "interactive demo",
+      "maturity": "high",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/WallDisplay",
+      "language": "Python",
+      "stack": [
+        "docker",
+        "notebook",
+        "python"
+      ],
+      "tags": [
+        "FastAPI",
+        "Docker",
+        "Media",
+        "Mobile"
+      ],
+      "updatedAt": "2026-05-29T05:10:52Z",
+      "pushedAt": "2026-05-29T05:10:47Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "A multi-surface media stack combining Python services, Docker, web UI, and mobile/control surfaces.",
+      "why": "Shows full-stack hardware-adjacent engineering and real-world media-control constraints.",
+      "walkthrough": [
+        "Review the README",
+        "Inspect service entrypoints",
+        "Compare with nano-dlna"
+      ]
+    },
+    {
+      "name": "nano-dlna",
+      "title": "Tiny DLNA/media server lab",
+      "description": "A Python/Docker media-service project with dashboard/tooling potential and sustained activity.",
+      "category": "Machine learning and data science",
+      "role": "interactive demo",
+      "maturity": "high",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/nano-dlna",
+      "language": "Roff",
+      "stack": [
+        "docker",
+        "notebook",
+        "python"
+      ],
+      "tags": [
+        "Python",
+        "Docker",
+        "DLNA",
+        "Backend"
+      ],
+      "updatedAt": "2025-07-11T04:26:58Z",
+      "pushedAt": "2025-07-11T04:26:53Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": true,
+      "outcome": "A Python/Docker media-service project with dashboard/tooling potential and sustained activity.",
+      "why": "Good backend/devtool story for packaging, local networking, and media workflow automation.",
+      "walkthrough": [
+        "Run the service locally",
+        "Inspect Docker setup",
+        "Review dashboard/demo affordances"
+      ]
+    }
+  ],
+  "repos": [
+    {
+      "name": "Address-Generator",
+      "title": "Address Generator",
+      "description": "Returns a real address from Zillow.com or a fake address from Fakenamegenerator.com",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Address-Generator",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2018-10-08T02:20:12Z",
+      "pushedAt": "2017-10-11T02:33:25Z",
+      "riskNotes": [
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "alien-invasion-game",
+      "title": "alien invasion game",
+      "description": "A basic game similiar to Galaga written in Python using Pygame library.",
+      "category": "Games and interactive apps",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/alien-invasion-game",
+      "language": "Python",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Games and interactive apps",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2019-10-03T22:01:54Z",
+      "pushedAt": "2019-09-29T06:25:48Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Amazon-Coupon-FInder",
+      "title": "Amazon Coupon FInder",
+      "description": "Google search from Python.",
+      "category": "Automation and data pipelines",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "low",
+      "demoKind": "script-install",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Amazon-Coupon-FInder",
+      "language": "Python",
+      "stack": [
+        "python"
+      ],
+      "tags": [
+        "Automation and data pipelines",
+        "supporting project",
+        "python"
+      ],
+      "updatedAt": "2020-06-16T18:15:14Z",
+      "pushedAt": "2020-06-16T18:14:55Z",
+      "riskNotes": [
+        "thin README",
+        "python repo lacks visible tests"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Amazon-Review-Scraper",
+      "title": "Amazon Review Scraper",
+      "description": "A python library to scrape data from amazon.com",
+      "category": "Automation and data pipelines",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "script-install",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Amazon-Review-Scraper",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Automation and data pipelines",
+        "archive/reference"
+      ],
+      "updatedAt": "2019-06-11T20:56:10Z",
+      "pushedAt": "2019-06-11T20:56:08Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Asymptomatix",
+      "title": "Asymptomatix",
+      "description": "Web apps and frontend repo with interactive demo portfolio posture and static-web evidence.",
+      "category": "Web apps and frontend",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/Asymptomatix/",
+      "githubUrl": "https://github.com/abhidya/Asymptomatix",
+      "language": "HTML",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Web apps and frontend",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2021-04-30T14:32:19Z",
+      "pushedAt": "2021-04-30T14:32:16Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "aws-python-lambdas",
+      "title": "aws python lambdas",
+      "description": "Collection of AWS Lambda functions in Python",
+      "category": "Automation and data pipelines",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/aws-python-lambdas",
+      "language": "",
+      "stack": [],
+      "tags": [
+        "Automation and data pipelines",
+        "supporting project"
+      ],
+      "updatedAt": "2020-09-01T17:13:18Z",
+      "pushedAt": "2019-03-13T10:54:01Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "CarryOkie",
+      "title": "Serverless karaoke room",
+      "description": "A static-first karaoke room with QR pairing, phones as remotes, WebRTC/P2P coordination, and cast-oriented playback.",
+      "category": "Games and interactive apps",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "multi-device",
+      "demoUrl": "https://abhidya.github.io/CarryOkie/",
+      "githubUrl": "https://github.com/abhidya/CarryOkie",
+      "language": "HTML",
+      "stack": [
+        "node",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "P2P",
+        "WebRTC",
+        "Static app",
+        "Media"
+      ],
+      "updatedAt": "2026-05-31T04:31:53Z",
+      "pushedAt": "2026-05-31T04:30:41Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true
+    },
+    {
+      "name": "Chameleon",
+      "title": "Chameleon",
+      "description": "Games and interactive apps repo with interactive demo portfolio posture and static-web evidence.",
+      "category": "Games and interactive apps",
+      "role": "interactive demo",
+      "maturity": "low",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/Chameleon/",
+      "githubUrl": "https://github.com/abhidya/Chameleon",
+      "language": "JavaScript",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Games and interactive apps",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2026-05-07T02:59:25Z",
+      "pushedAt": "2025-11-29T01:03:00Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "ChickenCoop",
+      "title": "ChickenCoop",
+      "description": "Games and interactive apps repo with supporting project portfolio posture and node, static-web, unity evidence.",
+      "category": "Games and interactive apps",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "https://abhidya.github.io/ChickenCoop/",
+      "githubUrl": "https://github.com/abhidya/ChickenCoop",
+      "language": "C#",
+      "stack": [
+        "node",
+        "static-web",
+        "unity"
+      ],
+      "tags": [
+        "Games and interactive apps",
+        "supporting project",
+        "node",
+        "static-web",
+        "unity"
+      ],
+      "updatedAt": "2026-05-16T22:45:05Z",
+      "pushedAt": "2026-05-16T22:44:59Z",
+      "riskNotes": [
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "crawler",
+      "title": "crawler",
+      "description": "The goal of this project is to build a very simple web crawler which fetches URLs and outputs crawl results to some sort of log or console as the crawl proceeds.",
+      "category": "Automation and data pipelines",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/crawler",
+      "language": "Python",
+      "stack": [
+        "python"
+      ],
+      "tags": [
+        "Automation and data pipelines",
+        "archive/reference",
+        "python"
+      ],
+      "updatedAt": "2020-05-13T13:25:45Z",
+      "pushedAt": "2020-05-12T20:30:49Z",
+      "riskNotes": [
+        "python repo lacks visible tests"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "CustomCard",
+      "title": "AI greeting-card production system",
+      "description": "Turns customer intent into printable card concepts with a modern React/Vite workflow and production-minded demo data.",
+      "category": "Web apps and frontend",
+      "role": "featured case study",
+      "maturity": "high",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://customcard-three.vercel.app",
+      "githubUrl": "https://github.com/abhidya/CustomCard",
+      "language": "TypeScript",
+      "stack": [
+        "docker",
+        "node",
+        "react",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "AI product",
+        "React",
+        "Vite",
+        "Docker"
+      ],
+      "updatedAt": "2026-06-04T00:59:02Z",
+      "pushedAt": "2026-06-04T00:58:59Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": true
+    },
+    {
+      "name": "developer-docs",
+      "title": "developer docs",
+      "description": "Developer Docs for the World ecosystem. Learn about our SDKs, Developer portal and World Chain.",
+      "category": "Machine learning and data science",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/developer-docs",
+      "language": "",
+      "stack": [
+        "node",
+        "react"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "interactive demo",
+        "node",
+        "react"
+      ],
+      "updatedAt": "2026-05-19T04:26:37Z",
+      "pushedAt": "2026-05-19T04:27:29Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "devportfolio",
+      "title": "devportfolio",
+      "description": "A personal portfolio website ",
+      "category": "Web apps and frontend",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/devportfolio/",
+      "githubUrl": "https://github.com/abhidya/devportfolio",
+      "language": "CSS",
+      "stack": [
+        "gulp",
+        "node",
+        "static-web"
+      ],
+      "tags": [
+        "Web apps and frontend",
+        "interactive demo",
+        "gulp",
+        "node",
+        "static-web"
+      ],
+      "updatedAt": "2019-12-03T04:02:35Z",
+      "pushedAt": "2019-12-03T04:02:30Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Dydak2Canvas",
+      "title": "Dydak2Canvas",
+      "description": "Syncs Dydaks Urgent deadlines to the canvas calendar",
+      "category": "Automation and data pipelines",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "script-install",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Dydak2Canvas",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Automation and data pipelines",
+        "archive/reference"
+      ],
+      "updatedAt": "2018-10-08T02:19:45Z",
+      "pushedAt": "2018-08-14T13:22:59Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "dynamics-LCS-automater",
+      "title": "dynamics LCS automater",
+      "description": "Automation and data pipelines repo with archive/reference portfolio posture and source evidence.",
+      "category": "Automation and data pipelines",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "script-install",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/dynamics-LCS-automater",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Automation and data pipelines",
+        "archive/reference"
+      ],
+      "updatedAt": "2019-07-19T16:57:17Z",
+      "pushedAt": "2019-07-19T16:57:14Z",
+      "riskNotes": [
+        "missing README",
+        "empty or near-empty repository"
+      ],
+      "readmePath": null,
+      "featured": false
+    },
+    {
+      "name": "eggBreakers",
+      "title": "eggBreakers",
+      "description": "Archive / learning artifact repo with supporting project portfolio posture and source evidence.",
+      "category": "Archive / learning artifact",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/eggBreakers",
+      "language": "Lua",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "supporting project"
+      ],
+      "updatedAt": "2026-06-04T01:01:56Z",
+      "pushedAt": "2026-06-04T01:01:52Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Farm-Bit-Robotizer",
+      "title": "Farm Bit Robotizer",
+      "description": "Automates the android app \"Farm Bit\" (No longer on the app store). ",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "script-install",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Farm-Bit-Robotizer",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2019-04-11T18:22:59Z",
+      "pushedAt": "2018-04-30T01:50:30Z",
+      "riskNotes": [
+        "empty or near-empty repository"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Flask-UpTime-Manger",
+      "title": "Flask UpTime Manger",
+      "description": "A uptime dashboard that manages, records and automates restarting python websites",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Flask-UpTime-Manger",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2019-08-21T06:19:58Z",
+      "pushedAt": "2019-08-21T06:19:56Z",
+      "riskNotes": [
+        "thin README",
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "ForConner",
+      "title": "ForConner",
+      "description": "Web apps and frontend repo with interactive demo portfolio posture and static-web evidence.",
+      "category": "Web apps and frontend",
+      "role": "interactive demo",
+      "maturity": "low",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/ForConner/",
+      "githubUrl": "https://github.com/abhidya/ForConner",
+      "language": "CSS",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Web apps and frontend",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2020-05-12T20:33:18Z",
+      "pushedAt": "2020-05-12T20:33:16Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "G2A-HumblePricer",
+      "title": "G2A HumblePricer",
+      "description": "Scrapes games from humble bundle and price checks the value it could be sold for. ",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/G2A-HumblePricer",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2019-04-11T18:36:00Z",
+      "pushedAt": "2018-09-20T01:58:00Z",
+      "riskNotes": [
+        "thin README"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "GroanTubeHero",
+      "title": "GroanTubeHero",
+      "description": "AI-assisted game/tooling repo with supporting project portfolio posture and roblox evidence.",
+      "category": "AI-assisted game/tooling",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/GroanTubeHero",
+      "language": "Lua",
+      "stack": [
+        "roblox"
+      ],
+      "tags": [
+        "AI-assisted game/tooling",
+        "supporting project",
+        "roblox"
+      ],
+      "updatedAt": "2026-06-02T04:18:44Z",
+      "pushedAt": "2026-05-31T19:26:42Z",
+      "riskNotes": [
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "hipaatraining.com-vulnerability",
+      "title": "hipaatraining.com vulnerability",
+      "description": "the exams take place client side, exploring the vulnerabilities",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/hipaatraining.com-vulnerability",
+      "language": "",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2020-12-11T01:41:16Z",
+      "pushedAt": "2019-08-26T20:18:04Z",
+      "riskNotes": [
+        "empty or near-empty repository"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Historical_Figures-Solution--Machine-Learning",
+      "title": "Historical Figures Solution  Machine Learning",
+      "description": "My solution to the Kaggle competition historical figures take 2",
+      "category": "Archive / learning artifact",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Historical_Figures-Solution--Machine-Learning",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "supporting project"
+      ],
+      "updatedAt": "2018-04-19T17:35:13Z",
+      "pushedAt": "2018-04-19T17:35:12Z",
+      "riskNotes": [
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "homebrew-i386-jos-elf-gcc",
+      "title": "homebrew i386 jos elf gcc",
+      "description": "For MIT 6.828 Operating System Engineering",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "live-hosted",
+      "demoUrl": "http://pdos.csail.mit.edu/6.828/2014/tools.html",
+      "githubUrl": "https://github.com/abhidya/homebrew-i386-jos-elf-gcc",
+      "language": "Ruby",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2020-09-17T03:21:12Z",
+      "pushedAt": "2020-09-17T03:21:20Z",
+      "riskNotes": [
+        "thin README"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "ImageModifier",
+      "title": "ImageModifier",
+      "description": "Generates random perutbations of an image to prevent overfitting",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/ImageModifier",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2018-07-24T17:19:30Z",
+      "pushedAt": "2018-07-24T17:19:29Z",
+      "riskNotes": [
+        "thin README",
+        "empty or near-empty repository"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "JackboxAIAssistant",
+      "title": "JackboxAIAssistant",
+      "description": "Automation and data pipelines repo with interactive demo portfolio posture and node, static-web evidence.",
+      "category": "Automation and data pipelines",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/JackboxAIAssistant/",
+      "githubUrl": "https://github.com/abhidya/JackboxAIAssistant",
+      "language": "JavaScript",
+      "stack": [
+        "node",
+        "static-web"
+      ],
+      "tags": [
+        "Automation and data pipelines",
+        "interactive demo",
+        "node",
+        "static-web"
+      ],
+      "updatedAt": "2026-05-12T06:20:23Z",
+      "pushedAt": "2026-05-12T06:20:20Z",
+      "riskNotes": [
+        "node repo lacks lockfile"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Jochen2Canvas",
+      "title": "Jochen2Canvas",
+      "description": "Syncs Jochens deadlines and homework assignments to the canvas calendar ",
+      "category": "Automation and data pipelines",
+      "role": "interactive demo",
+      "maturity": "low",
+      "demoPotential": "high",
+      "demoKind": "script-install",
+      "demoUrl": "http://142.93.240.235.xip.io/Jochen2Canvas/",
+      "githubUrl": "https://github.com/abhidya/Jochen2Canvas",
+      "language": "Python",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Automation and data pipelines",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2018-10-08T02:19:26Z",
+      "pushedAt": "2018-09-21T13:50:32Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "jokes",
+      "title": "jokes",
+      "description": "utkml workshop and competition kick off for recommender systems",
+      "category": "Machine learning and data science",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "medium",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/jokes",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "archive/reference",
+        "notebook"
+      ],
+      "updatedAt": "2020-02-27T23:28:35Z",
+      "pushedAt": "2020-02-27T23:28:33Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Karachi-Coup",
+      "title": "Culturally themed multiplayer browser game",
+      "description": "A Vite/React TypeScript game with rules, flow, and a static-friendly demo surface.",
+      "category": "Games and interactive apps",
+      "role": "featured case study",
+      "maturity": "high",
+      "demoPotential": "high",
+      "demoKind": "multi-device",
+      "demoUrl": "https://abhidya.github.io/Karachi-Coup/",
+      "githubUrl": "https://github.com/abhidya/Karachi-Coup",
+      "language": "TypeScript",
+      "stack": [
+        "node",
+        "react",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "Game",
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "updatedAt": "2026-05-30T19:19:20Z",
+      "pushedAt": "2026-05-30T19:19:16Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true
+    },
+    {
+      "name": "kickstarter-analysis",
+      "title": "kickstarter analysis",
+      "description": "Performing Analysis on Kickstarter Data to Uncover Trends",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/kickstarter-analysis",
+      "language": "",
+      "stack": [
+        "spreadsheet"
+      ],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference",
+        "spreadsheet"
+      ],
+      "updatedAt": "2020-11-22T17:56:10Z",
+      "pushedAt": "2020-11-22T17:26:15Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "kickstarter-analysis-1",
+      "title": "kickstarter analysis 1",
+      "description": "Performing analysis on Kickstarter data to uncover trends",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/kickstarter-analysis-1",
+      "language": "",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2020-11-22T18:05:28Z",
+      "pushedAt": "2020-11-22T18:04:04Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Koth-character-identifier",
+      "title": "Koth character identifier",
+      "description": "Finds out who you are from king of the hill by reading your tweets",
+      "category": "Machine learning and data science",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Koth-character-identifier",
+      "language": "Python",
+      "stack": [
+        "notebook",
+        "python",
+        "static-web"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "supporting project",
+        "notebook",
+        "python",
+        "static-web"
+      ],
+      "updatedAt": "2021-12-15T02:06:50Z",
+      "pushedAt": "2022-12-08T06:22:18Z",
+      "riskNotes": [
+        "python repo lacks visible tests"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "logTM",
+      "title": "logTM",
+      "description": "A turing machine to solve logarithmic calcuations",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/logTM",
+      "language": "",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2018-10-30T18:30:50Z",
+      "pushedAt": "2018-10-30T18:30:48Z",
+      "riskNotes": [
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "MeraVazeerKon",
+      "title": "MeraVazeerKon",
+      "description": "Archive / learning artifact repo with archive/reference portfolio posture and source evidence.",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/MeraVazeerKon",
+      "language": "",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2025-12-03T02:45:35Z",
+      "pushedAt": "2025-12-03T02:45:32Z",
+      "riskNotes": [
+        "thin README",
+        "empty or near-empty repository"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "microbiology_malaria",
+      "title": "microbiology malaria",
+      "description": "This semester, I worked with Dr.Berry and Dr.Ganusav on building a Web Portal that displays different probability of malaria infection models depending on the input of mosquito sporozoite concentration.",
+      "category": "Machine learning and data science",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/microbiology_malaria",
+      "language": "JavaScript",
+      "stack": [
+        "python",
+        "static-web"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "supporting project",
+        "python",
+        "static-web"
+      ],
+      "updatedAt": "2019-03-19T15:51:44Z",
+      "pushedAt": "2019-03-19T15:51:43Z",
+      "riskNotes": [
+        "no obvious run instructions",
+        "python repo lacks visible tests"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "ml-c-vsSnek",
+      "title": "ml c vsSnek",
+      "description": "Systems and algorithms repo with archive/reference portfolio posture and cpp evidence.",
+      "category": "Systems and algorithms",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/ml-c-vsSnek",
+      "language": "C++",
+      "stack": [
+        "cpp"
+      ],
+      "tags": [
+        "Systems and algorithms",
+        "archive/reference",
+        "cpp"
+      ],
+      "updatedAt": "2018-04-26T20:44:07Z",
+      "pushedAt": "2018-04-26T20:44:06Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "ML-for-Software-Engineering",
+      "title": "ML for Software Engineering",
+      "description": "Repository mining and codifying programmer behavior to identify problematic student code segments for analysis and correction. Advisers Dr. Austin Z. Henley",
+      "category": "Automation and data pipelines",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/ML-for-Software-Engineering",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook",
+        "static-web"
+      ],
+      "tags": [
+        "Automation and data pipelines",
+        "supporting project",
+        "notebook",
+        "static-web"
+      ],
+      "updatedAt": "2025-12-09T13:31:03Z",
+      "pushedAt": "2019-03-13T16:16:42Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Movies_ETL",
+      "title": "Movies ETL",
+      "description": "Machine learning and data science repo with archive/reference portfolio posture and notebook evidence.",
+      "category": "Machine learning and data science",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "medium",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Movies_ETL",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "archive/reference",
+        "notebook"
+      ],
+      "updatedAt": "2021-02-03T02:52:30Z",
+      "pushedAt": "2021-02-03T02:52:28Z",
+      "riskNotes": [
+        "thin README"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "nano-dlna",
+      "title": "Tiny DLNA/media server lab",
+      "description": "A Python/Docker media-service project with dashboard/tooling potential and sustained activity.",
+      "category": "Machine learning and data science",
+      "role": "interactive demo",
+      "maturity": "high",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/nano-dlna",
+      "language": "Roff",
+      "stack": [
+        "docker",
+        "notebook",
+        "python"
+      ],
+      "tags": [
+        "Python",
+        "Docker",
+        "DLNA",
+        "Backend"
+      ],
+      "updatedAt": "2025-07-11T04:26:58Z",
+      "pushedAt": "2025-07-11T04:26:53Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": true
+    },
+    {
+      "name": "Practice0",
+      "title": "Practice0",
+      "description": "First assignment",
+      "category": "Machine learning and data science",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "medium",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Practice0",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "archive/reference",
+        "notebook"
+      ],
+      "updatedAt": "2020-09-01T20:52:50Z",
+      "pushedAt": "2020-09-01T20:52:48Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "PreTTy",
+      "title": "PreTTy",
+      "description": "A group project for COSC 340 - Software Engineering. A visual File Browser that will size icons by usage. Members include : Cody, Cara, Manny, Nathan, and Hayden. The construction phase will last 5 sprints with intermittent demos to Dr. Henley.",
+      "category": "Backend services and developer tools",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/PreTTy",
+      "language": "Python",
+      "stack": [
+        "python"
+      ],
+      "tags": [
+        "Backend services and developer tools",
+        "supporting project",
+        "python"
+      ],
+      "updatedAt": "2018-12-18T20:04:32Z",
+      "pushedAt": "2018-12-04T21:09:32Z",
+      "riskNotes": [
+        "python repo lacks visible tests"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "QR-Tag",
+      "title": "QR Tag",
+      "description": "Tag with phones and QR codes",
+      "category": "Games and interactive apps",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "multi-device",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/QR-Tag",
+      "language": "HTML",
+      "stack": [
+        "python",
+        "static-web"
+      ],
+      "tags": [
+        "Games and interactive apps",
+        "supporting project",
+        "python",
+        "static-web"
+      ],
+      "updatedAt": "2018-12-17T21:14:41Z",
+      "pushedAt": "2018-10-02T02:29:17Z",
+      "riskNotes": [
+        "python repo lacks visible tests"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Rewteet_graph",
+      "title": "Rewteet graph",
+      "description": "Builds a matrix of twitter users that retweeted each others content. ",
+      "category": "Machine learning and data science",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "medium",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Rewteet_graph",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook",
+        "static-web"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "archive/reference",
+        "notebook",
+        "static-web"
+      ],
+      "updatedAt": "2019-11-14T22:38:10Z",
+      "pushedAt": "2019-04-20T18:54:18Z",
+      "riskNotes": [
+        "missing README",
+        "no obvious run instructions"
+      ],
+      "readmePath": null,
+      "featured": false
+    },
+    {
+      "name": "roblox-studio-rust-mcp-server",
+      "title": "roblox studio rust mcp server",
+      "description": "Standalone Roblox Studio MCP Server",
+      "category": "AI-assisted game/tooling",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/roblox-studio-rust-mcp-server",
+      "language": "Luau",
+      "stack": [
+        "roblox",
+        "rust"
+      ],
+      "tags": [
+        "AI-assisted game/tooling",
+        "supporting project",
+        "roblox",
+        "rust"
+      ],
+      "updatedAt": "2026-05-31T07:43:23Z",
+      "pushedAt": "2026-06-03T04:46:36Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "RobloxAIDev",
+      "title": "AI-assisted Roblox creation pipeline",
+      "description": "A tooling-heavy repo for asset-driven Roblox generation, headless assembly, and validation workflows.",
+      "category": "AI-assisted game/tooling",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/RobloxAIDev",
+      "language": "JavaScript",
+      "stack": [
+        "roblox"
+      ],
+      "tags": [
+        "Roblox",
+        "AI tooling",
+        "Automation"
+      ],
+      "updatedAt": "2026-06-04T01:01:57Z",
+      "pushedAt": "2026-06-04T01:01:52Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true
+    },
+    {
+      "name": "Safeway-Coupon-Auto-Clipper",
+      "title": "Safeway Coupon Auto Clipper",
+      "description": "This Tampermonkey script is designed to automatically click \"Clip Coupon\" buttons and the \"Load more\" button on Safeway's coupons and deals page. The script introduces adjustable delays to prevent overwhelming the server.",
+      "category": "Automation and data pipelines",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "script-install",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Safeway-Coupon-Auto-Clipper",
+      "language": "JavaScript",
+      "stack": [],
+      "tags": [
+        "Automation and data pipelines",
+        "archive/reference"
+      ],
+      "updatedAt": "2026-02-03T02:54:45Z",
+      "pushedAt": "2023-08-21T21:40:16Z",
+      "riskNotes": [
+        "empty or near-empty repository"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "serabunni",
+      "title": "serabunni",
+      "description": "Games and interactive apps repo with interactive demo portfolio posture and static-web evidence.",
+      "category": "Games and interactive apps",
+      "role": "interactive demo",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/serabunni/",
+      "githubUrl": "https://github.com/abhidya/serabunni",
+      "language": "JavaScript",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Games and interactive apps",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2025-11-14T04:20:40Z",
+      "pushedAt": "2025-11-14T04:20:36Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "SixDOS",
+      "title": "SixDOS",
+      "description": "A live time experiment exploring the \"Six Degrees of Seperation\" As my spider bot crawls through Twitter",
+      "category": "Automation and data pipelines",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/SixDOS",
+      "language": "JavaScript",
+      "stack": [
+        "python",
+        "static-web"
+      ],
+      "tags": [
+        "Automation and data pipelines",
+        "supporting project",
+        "python",
+        "static-web"
+      ],
+      "updatedAt": "2019-01-22T23:35:28Z",
+      "pushedAt": "2018-11-15T16:26:31Z",
+      "riskNotes": [
+        "no obvious run instructions",
+        "python repo lacks visible tests"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "spamdetectpublicdata",
+      "title": "spamdetectpublicdata",
+      "description": "Machine learning and data science repo with archive/reference portfolio posture and notebook evidence.",
+      "category": "Machine learning and data science",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "medium",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/spamdetectpublicdata",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "archive/reference",
+        "notebook"
+      ],
+      "updatedAt": "2019-03-28T23:25:05Z",
+      "pushedAt": "2019-03-28T23:25:05Z",
+      "riskNotes": [
+        "missing README",
+        "no obvious run instructions"
+      ],
+      "readmePath": null,
+      "featured": false
+    },
+    {
+      "name": "stock-analysis",
+      "title": "stock analysis",
+      "description": "Archive / learning artifact repo with archive/reference portfolio posture and spreadsheet evidence.",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/stock-analysis",
+      "language": "",
+      "stack": [
+        "spreadsheet"
+      ],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference",
+        "spreadsheet"
+      ],
+      "updatedAt": "2020-12-06T16:13:15Z",
+      "pushedAt": "2020-12-06T06:47:13Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "students",
+      "title": "students",
+      "description": "information about/fo students of fdac20",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/students",
+      "language": "",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2020-08-20T21:24:52Z",
+      "pushedAt": "2020-08-20T21:24:50Z",
+      "riskNotes": [
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Temu-order-calculator",
+      "title": "Temu order calculator",
+      "description": "Archive / learning artifact repo with archive/reference portfolio posture and source evidence.",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Temu-order-calculator",
+      "language": "",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2025-09-26T13:08:36Z",
+      "pushedAt": "2025-09-26T13:08:36Z",
+      "riskNotes": [
+        "missing README",
+        "empty or near-empty repository"
+      ],
+      "readmePath": null,
+      "featured": false
+    },
+    {
+      "name": "TemuOrderScraper",
+      "title": "TemuOrderScraper",
+      "description": "Web apps and frontend repo with interactive demo portfolio posture and static-web evidence.",
+      "category": "Web apps and frontend",
+      "role": "interactive demo",
+      "maturity": "low",
+      "demoPotential": "high",
+      "demoKind": "script-install",
+      "demoUrl": "https://abhidya.github.io/TemuOrderScraper/",
+      "githubUrl": "https://github.com/abhidya/TemuOrderScraper",
+      "language": "HTML",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Web apps and frontend",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2025-09-26T13:32:46Z",
+      "pushedAt": "2025-09-26T13:32:43Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Text-Encrypter-Decrypter",
+      "title": "Text Encrypter Decrypter",
+      "description": "https://i.imgur.com/0EIT4Ia.gif",
+      "category": "Systems and algorithms",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Text-Encrypter-Decrypter",
+      "language": "C++",
+      "stack": [
+        "cpp"
+      ],
+      "tags": [
+        "Systems and algorithms",
+        "archive/reference",
+        "cpp"
+      ],
+      "updatedAt": "2017-10-17T14:54:36Z",
+      "pushedAt": "2017-10-17T14:58:54Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Tumblr_automater",
+      "title": "Tumblr automater",
+      "description": "Uses Reddit to scrape top and trending posts and reposts them onto tumblrs",
+      "category": "Archive / learning artifact",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "low",
+      "demoKind": "script-install",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Tumblr_automater",
+      "language": "Python",
+      "stack": [],
+      "tags": [
+        "Archive / learning artifact",
+        "archive/reference"
+      ],
+      "updatedAt": "2023-10-08T06:34:21Z",
+      "pushedAt": "2017-10-22T20:57:33Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "Twitter-Locality",
+      "title": "Twitter Locality",
+      "description": "Finds the location of a twitter user through scrapping their profile page, or the profiles of their followers / friends",
+      "category": "Machine learning and data science",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "medium",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/Twitter-Locality",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "archive/reference",
+        "notebook"
+      ],
+      "updatedAt": "2019-04-04T19:17:09Z",
+      "pushedAt": "2019-03-08T01:52:33Z",
+      "riskNotes": [
+        "missing README",
+        "empty or near-empty repository"
+      ],
+      "readmePath": null,
+      "featured": false
+    },
+    {
+      "name": "UTK_Prints",
+      "title": "UTK Prints",
+      "description": " My website I built solves the problem of knowing where printers are and what they are named.",
+      "category": "Web apps and frontend",
+      "role": "interactive demo",
+      "maturity": "low",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/UTK_Prints/",
+      "githubUrl": "https://github.com/abhidya/UTK_Prints",
+      "language": "JavaScript",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Web apps and frontend",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2018-10-08T02:20:07Z",
+      "pushedAt": "2018-03-28T04:21:27Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "UtkML_Fall2019_Intro",
+      "title": "UtkML Fall2019 Intro",
+      "description": "Intro to Python and IRIS dataset with Google Colab",
+      "category": "Machine learning and data science",
+      "role": "archive/reference",
+      "maturity": "low",
+      "demoPotential": "medium",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/UtkML_Fall2019_Intro",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "archive/reference",
+        "notebook"
+      ],
+      "updatedAt": "2026-05-25T09:48:31Z",
+      "pushedAt": "2019-09-19T15:45:30Z",
+      "riskNotes": [
+        "thin README"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "utkML_projects",
+      "title": "utkML projects",
+      "description": "Projects for Machine Learning Club at UTK",
+      "category": "Machine learning and data science",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "medium",
+      "demoKind": "narrated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/utkML_projects",
+      "language": "Jupyter Notebook",
+      "stack": [
+        "notebook"
+      ],
+      "tags": [
+        "Machine learning and data science",
+        "supporting project",
+        "notebook"
+      ],
+      "updatedAt": "2020-10-29T23:23:46Z",
+      "pushedAt": "2020-10-29T23:23:44Z",
+      "riskNotes": [
+        "thin README",
+        "no obvious run instructions"
+      ],
+      "readmePath": "README.md",
+      "featured": false
+    },
+    {
+      "name": "WallDisplay",
+      "title": "Local media control plane",
+      "description": "A multi-surface media stack combining Python services, Docker, web UI, and mobile/control surfaces.",
+      "category": "Machine learning and data science",
+      "role": "interactive demo",
+      "maturity": "high",
+      "demoPotential": "medium",
+      "demoKind": "hardware-gated",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/WallDisplay",
+      "language": "Python",
+      "stack": [
+        "docker",
+        "notebook",
+        "python"
+      ],
+      "tags": [
+        "FastAPI",
+        "Docker",
+        "Media",
+        "Mobile"
+      ],
+      "updatedAt": "2026-05-29T05:10:52Z",
+      "pushedAt": "2026-05-29T05:10:47Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
+      "readmePath": "README.md",
+      "featured": true
+    },
+    {
+      "name": "WallHUD",
+      "title": "WallHUD",
+      "description": "adds heads up display and live animations to a wall using a projector",
+      "category": "Web apps and frontend",
+      "role": "interactive demo",
+      "maturity": "low",
+      "demoPotential": "high",
+      "demoKind": "static-safe",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/abhidya/WallHUD",
+      "language": "HTML",
+      "stack": [
+        "static-web"
+      ],
+      "tags": [
+        "Web apps and frontend",
+        "interactive demo",
+        "static-web"
+      ],
+      "updatedAt": "2025-01-19T03:52:32Z",
+      "pushedAt": "2025-01-19T03:52:30Z",
+      "riskNotes": [
+        "missing README",
+        "no obvious run instructions"
+      ],
+      "readmePath": null,
+      "featured": false
+    },
+    {
+      "name": "Wazir",
+      "title": "Peer-assisted social deduction game",
+      "description": "A modern Vite/React game with live demo intent and multiplayer/social interaction framing.",
+      "category": "Games and interactive apps",
+      "role": "featured case study",
+      "maturity": "high",
+      "demoPotential": "high",
+      "demoKind": "multi-device",
+      "demoUrl": "https://abhidya.github.io/Wazir/",
+      "githubUrl": "https://github.com/abhidya/Wazir",
+      "language": "JavaScript",
+      "stack": [
+        "node",
+        "react",
+        "static-web",
+        "vite"
+      ],
+      "tags": [
+        "Game",
+        "P2P",
+        "React",
+        "Vite"
+      ],
+      "updatedAt": "2026-05-21T04:51:05Z",
+      "pushedAt": "2026-05-21T04:51:01Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true
+    },
+    {
+      "name": "WorldPrize",
+      "title": "World ID protected instant-win demo",
+      "description": "A polished web monorepo for a protected promotion/free-entry style product demo.",
+      "category": "Automation and data pipelines",
+      "role": "supporting project",
+      "maturity": "medium",
+      "demoPotential": "low",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://world-prize.vercel.app",
+      "githubUrl": "https://github.com/abhidya/WorldPrize",
+      "language": "TypeScript",
+      "stack": [
+        "node"
+      ],
+      "tags": [
+        "Product demo",
+        "Identity",
+        "Monorepo"
+      ],
+      "updatedAt": "2026-05-20T05:46:03Z",
+      "pushedAt": "2026-05-20T05:45:59Z",
+      "riskNotes": [],
+      "readmePath": "README.md",
+      "featured": true
+    }
+  ]
+}

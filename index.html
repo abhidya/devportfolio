@@ -1,9 +1,11 @@
-<html class="" lang="en" xmlns="http://www.w3.org/1999/html">
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <meta name="description" content="Manny Bhidya developer portfolio: systems, games, data, automation, and AI-assisted tooling across public GitHub repos.">
+    <title>Manny Bhidya | Developer Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -12,324 +14,193 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body class="">
-<div id="mobile-menu-open" class="shadow-large">
+<body>
+<div id="mobile-menu-open" class="shadow-large" aria-label="Open navigation" role="button" tabindex="0">
     <i class="fa fa-bars" aria-hidden="true"></i>
 </div>
-<!-- End #mobile-menu-toggle -->
-<header class="">
+
+<header>
     <div id="mobile-menu-close">
         <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
     </div>
     <ul id="menu" class="shadow">
-        <li>
-            <a href="#about">About</a>
-        </li>
-        <li>
-            <a href="#projects">Projects</a>
-        </li>
-        <li>
-            <a href="#experience">Experience</a>
-        </li>
-
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
+        <li><a href="#repo-atlas">Repo Atlas</a></li>
+        <li><a href="#demos">Demos</a></li>
+        <li><a href="#experience">Experience</a></li>
     </ul>
 </header>
-<!-- End header -->
 
-<div id="lead">
-    <div id="lead-content">
-        <h1>Manny Bhidya</h1>
-        <h2>Data Engineer</h2>
-        <a href="https://github.com/abhidya/Resume/raw/master/Resume.pdf" download="resume.pdf"
-           class="btn-rounded-white">Download Resume</a>
-    </div>
-    <!-- End #lead-content -->
-
-    <div id="lead-overlay"></div>
-
-    <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-    </div>
-    <!-- End #lead-down -->
-</div>
-<!-- End #lead -->
-
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h2 class="heading">About Me</h2>
+<main>
+    <section id="lead">
+        <div id="lead-content">
+            <p class="eyebrow">Abhidya GitHub portfolio</p>
+            <h1>Manny Bhidya</h1>
+            <h2>Systems, games, data pipelines, and AI-assisted tooling</h2>
+            <p class="lead-summary">
+                A guided walkthrough of public repos, grouped by what they prove, how to try them,
+                and where each project fits in the larger engineering story.
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+                <a href="#tour" class="btn-rounded-white"><i class="fa fa-map-signs" aria-hidden="true"></i> Start Guided Tour</a>
+                <a href="#repo-atlas" class="btn-secondary-white"><i class="fa fa-search" aria-hidden="true"></i> Browse Repos</a>
             </div>
-            <div class="col-md-8">
+            <dl class="stat-strip" id="hero-stats" aria-label="Portfolio statistics">
+                <div><dt>Repos</dt><dd>63</dd></div>
+                <div><dt>Categories</dt><dd>8</dd></div>
+                <div><dt>Demos</dt><dd>20</dd></div>
+                <div><dt>Case studies</dt><dd>8</dd></div>
+            </dl>
+        </div>
+        <div id="lead-overlay"></div>
+        <div id="lead-down">
+            <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+        </div>
+    </section>
+
+    <section id="about" class="section-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I build practical systems that often start as experiments: browser games,
+                        serverless demos, data pipelines, automation scripts, media tooling, and AI-assisted creative workflows.
+                        This portfolio turns the full public repo archive into a map: the strongest work is featured,
+                        runnable demos are easy to find, and older repos are framed as learning artifacts instead of clutter.
+                    </p>
+                    <div class="profile-links">
+                        <a href="https://github.com/abhidya" target="_blank" rel="noopener"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/abhidya/" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tour" class="section-dark">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Guided tour</p>
+                <h2>Choose how to walk through the work</h2>
+            </div>
+            <div id="tour-grid" class="tour-grid" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <section id="case-studies" class="section-light">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Featured case studies</p>
+                <h2>Eight projects that carry the portfolio</h2>
+            </div>
+            <div id="case-study-grid" class="case-study-grid" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <section id="repo-atlas" class="section-dark">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Repo atlas</p>
+                <h2>All public repos, categorized</h2>
+            </div>
+            <div class="atlas-controls">
+                <div id="repo-filters" class="filter-row" aria-label="Repo filters"></div>
+                <label class="search-box">
+                    <span>Search repos</span>
+                    <input id="repo-search" type="search" placeholder="Search by name, stack, category, or note">
+                </label>
+            </div>
+            <p id="repo-count" class="repo-count" aria-live="polite">Loading repos...</p>
+            <div id="repo-grid" class="repo-grid"></div>
+        </div>
+    </section>
+
+    <section id="demos" class="section-light">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Demo shelf</p>
+                <h2>How to try the projects</h2>
+            </div>
+            <div id="demo-shelf" class="demo-shelf" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-dark">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="Recent work">
+                <h3>Independent builder</h3>
+                <h4>Product systems, games, and local-first tooling</h4>
                 <p>
-                    I am a <b>student </b>at the <b>University of Tennessee </b>, I am majoring in<b> Computer
-                    Science</b> with the <b>Artificial Intelligence</b> concentration and minoring in<b>
-                    CyberSecurity</b>.
-                    I am a <b> Senior </b> currently on <a
-                        href="http://www.coop.utk.edu/students/coop/advantages">co-op</a>
-                    with <b><a href="http://www.veranahealth.com/company/">Verana Health</a></b>. This website serves
-                    as a portfolio and references to my past projects and experiences.
-
-
+                    Built and iterated on AI-assisted product demos, browser-first social games, media-control tools,
+                    Roblox/Unity experiments, and serverless projects designed to be shown directly from the repo.
                 </p>
-                <br/>
-                <p style="text-align:center"><b>Connect with me!</p></b>
-                <p style="text-align:center"><b><font size="15">
-                    <a href="https://github.com/abhidya" target="_blank"><i class="fa fa-github"
-                                                                            aria-hidden="true"></i></a>
-
-                    <a href="https://www.linkedin.com/in/abhidya/" target="_blank"><i class="fa fa-linkedin"
-                                                                                      aria-hidden="true"></i></a>
-                </b>
-                </p></font>
+            </div>
+            <div data-date="October 2019 - August 2020">
+                <h3>Verana Health</h3>
+                <h4>Data Engineer</h4>
+                <p>
+                    Developed, tested, and deployed healthcare data ingestion pipelines. Built mapping, modeling,
+                    and ingestion testing workflows for clinical data operations.
+                </p>
+            </div>
+            <div data-date="August 2019 - October 2019">
+                <h3>PYA Analytics</h3>
+                <h4>Data Engineer</h4>
+                <p>
+                    Worked on Hadoop administration, ETL workflows, Python data processing, and enterprise data governance tools.
+                </p>
+            </div>
+            <div data-date="September 2018 - August 2019">
+                <h3>CURENT</h3>
+                <h4>Undergraduate Researcher</h4>
+                <p>
+                    Led research work around Twitter analysis during disasters affecting utilities and the electric grid,
+                    including sentiment and actionable item classification.
+                </p>
+            </div>
+            <div data-date="May 2019 - August 2019">
+                <h3>Asurion</h3>
+                <h4>DevOps Engineer</h4>
+                <p>
+                    Prototyped Azure AI and machine-learning workflows for business operations, anomaly detection,
+                    and Microsoft Dynamics Lifecycle Services automation.
+                </p>
+            </div>
+            <div data-date="May 2018 - August 2018">
+                <h3>Jewelry Television</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                    Developed reverse product image search and Android-facing model workflows for merchandise identification.
+                </p>
             </div>
         </div>
-    </div>
-</div>
-<!-- End #about -->
-
-
-<div id="projects" class="background-alt">
-    <h2 class="heading">Projects</h2>
-    <div class="container">
-        <div class="row">
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img width="200" src="images/cls.png"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Knoxville Corporate Living Solutions</h3>
-                    <p>KCLS provides apartment and house rentals to corporate travelers and short term guests. I began
-                        this business when I saw a lot of my friends moving for
-                        Summer internships, they would often complain about having to pay the lease while being away. I
-                        offered those with nice apartments to cover the rent
-                        and any subleasing fees, in return I would manage and rent them out. I had 2 units in 2018 and
-                        was profitable while operating!
-                    </p>
-                    <a href="http://knoxcorporatelivingsolutions.com/">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img width="300" src="images/utprints.png"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>UT Maps</h3>
-                    <p>
-                        My website I built solves the problem of knowing where UT campus printers are and what they are
-                        named. The website centers a google map on the users' location and loads custom markers on where
-                        every live printer is allowing the user to find the closest printer. Clicking on the icon
-                        renders more information about the printers name, make and model. It also shows information
-                        about if the printer can print color or black and white.
-
-
-                    </p>
-                    <a href="https://abhidya.github.io/UTK_Prints/">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img width="300" src="images/koth.png"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>King of the Hill AI Predictor</h3>
-                    <p>
-                        My website that reads a public Twitter users tweets and uses AI to figure out who they are from
-                        King of the Hill!
-
-
-                        I train Doc2Vec with quotes from characters scrapped from Wikipedia.
-
-                        Currently only classifying Hank, Bobby, Peggy and Dale due to little training data. I plan on
-                        implementing logic handling classification when tweets aren't clearly like a character. I also
-                        have some ideas on where to wrangle more data!
-                    </p>
-                    <a href="http://kingofthehill.duckdns.org:8001/">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img width="300" src="images/buggies.png"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Machine Learning for Software Engineering</h3>
-                    <p>
-                         This is a web application that identifies problematic code blocks in Java and C++ code. It uses machine learning trained on data we mined
-                        from Github and StackOverflow.
-                        This was developed during an independent research course, Machine Learning for Software Engineering, advised by Dr. Austin Z. Henley where
-                        we researched approaches for code vectorization and classification
-                    </p>
-                    <a href="http://kingofthehill.duckdns.org:8004/">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img width="300" src="images/MicroMalaria.png"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Software for Bio-Informatics</h3>
-                    <p>
-                        A web interface to allow data collection of Plasmodium parasite concentration in mosquito
-                        species. Developed a prediction model based on the results in “How Plasmodium parasites cause
-                        malaria: understanding transmission of parasites from mosquitos to mice”. Model calculates the
-                        probability of a Malaria infection if bitten by a mosquito.
-                        This was developed during an independent research course advised by Dr. Michael W. Berry & Dr.
-                        Vitaly Ganusov.
-                    </p>
-                    <a href="http://kingofthehill.duckdns.org:8002/">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img width="300" src="images/qr.jpg"/>
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>QR Tag</h3>
-                    <p>QR Tag is a game that I developed alongside my team at Volhacks III (Hackathon). QR Tag is a
-                        platform that allows players to play games like tag and lazer quest with
-                        their smartphones and some QR Codes. We Won Best UX and Top 7 Teams (2018)
-                    </p>
-                    <a href="http://kingofthehill.duckdns.org:8003/">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-        </div>
-    </div>
-</div>
-<!-- End #projects -->
-
-<div id="experience" class="background-alt">
-    <h2 class="heading">Experience</h2>
-    <div id="experience-timeline">
-        <div data-date="October 2019 – August 2020">
-            <h3>Verana Health</h3>
-            <h4>Data Engineer</h4>
-            <p>
-                Developed, tested and deployed data ingestion pipelines for over 25 thousand practice’s healthcare data.
-                Developed
-                enterprise software for data modeling and mapping. Built ingestion testing framework to monitor and test
-                pipelines.
-            </p>
-        </div>
-
-        <div data-date="August 2019 – October 2019">
-            <h3>PYA Analytics</h3>
-            <h4>Data Engineer</h4>
-            <p>
-                Hadoop administration and ETL workflows. Using Python to clean, process, and set up automated processing
-                pipelines for healthcare data. Design, development, and maintenance of an enterprise Data Governance
-                tool.
-
-            </p>
-        </div>
-
-        <div data-date="September 2018 – August 2019">
-            <h3>CURENT</h3>
-            <h4>Undergraduate Researcher</h4>
-            <p>
-                Team lead of a ten person research group that performs tweet analysis and research during disasters that
-                affect utilities
-                and the electric grid. We mine Twitter for user data and content. We classify sentiment and actionable
-                items.
-
-            </p>
-        </div>
-
-        <div data-date="May 2019 – August 2019">
-            <h3>Asurion</h3>
-            <h4>DevOps Engineer</h4>
-            <p>
-                Researched ways to implement Azure AI + Machine Learning product suite to optimize business operations.
-                Deployed Azure's Anomaly Detection to monitor Long Running SQL Queries; detecting queries causing
-                production performance issues. Deployed automated data ingestion from Microsoft Dynamics Lifecycle
-                Services unofficial API.
-            </p>
-        </div>
-        <div data-date="December 2018 – August 2019">
-            <h3>Vaco</h3>
-            <h4>Google Student Innovator</h4>
-            <p>
-                The “go-to-person” for information on the Google Cloud Platform at the University of Tennessee. Host
-                events,
-                workshops, and raise awareness through collaborations with other organizations and research groups.
-
-            </p>
-        </div>
-        <div data-date="May 2018 – August 2018">
-            <h3>Jewelry Television</h3>
-            <h4>Software Engineer</h4>
-            <p>
-                Developed a reverse product image search application. Trained neural networks on product images and
-                product metadata. Developed an Android application to interface with the model. This enterprise
-                application is being used to classify merchandise that has missing identification tags and allows them
-                to be sold.
-
-            </p>
-        </div>
-    </div>
-</div>
-<!-- End #experience -->
+    </section>
+</main>
 
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-sm-5 copyright">
-                <p>
-                    Copyright &copy; 2017 Manny Bhidya
-                </p>
+                <p>Copyright &copy; 2026 Manny Bhidya</p>
             </div>
             <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
+                <span id="to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
             </div>
             <div class="col-sm-5 social">
                 <ul>
-                    <li>
-
-                        <a href="https://github.com/abhidya" target="_blank"><i class="fa fa-github"
-                                                                                aria-hidden="true"></i></a>
-
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/abhidya/" target="_blank"><i class="fa fa-linkedin"
-                                                                                          aria-hidden="true"></i></a>
-                    </li>
-
+                    <li><a href="https://github.com/abhidya" target="_blank" rel="noopener"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/abhidya/" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
-<!-- End footer -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/scripts.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
-
 </html>
