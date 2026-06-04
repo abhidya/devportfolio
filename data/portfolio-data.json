@@ -7,11 +7,29 @@
     "headline": "Developer portfolio across systems, games, data, automation, and AI-assisted tooling"
   },
   "stats": {
-    "repoCount": 63,
+    "repoCount": 49,
+    "sourceRepoCount": 63,
+    "hiddenForkCount": 14,
     "liveDemoCount": 16,
     "featuredCount": 8,
     "categoryCount": 8
   },
+  "excludedForks": [
+    "Amazon-Coupon-FInder",
+    "Amazon-Review-Scraper",
+    "Movies_ETL",
+    "Practice0",
+    "aws-python-lambdas",
+    "developer-docs",
+    "homebrew-i386-jos-elf-gcc",
+    "kickstarter-analysis",
+    "kickstarter-analysis-1",
+    "nano-dlna",
+    "roblox-studio-rust-mcp-server",
+    "stock-analysis",
+    "students",
+    "utkML_projects"
+  ],
   "categories": [
     "AI-assisted game/tooling",
     "Archive / learning artifact",
@@ -43,7 +61,7 @@
         "CustomCard",
         "WorldPrize",
         "WallDisplay",
-        "nano-dlna"
+        "devportfolio"
       ]
     },
     {
@@ -55,7 +73,8 @@
         "Karachi-Coup",
         "Wazir",
         "Chameleon",
-        "serabunni"
+        "serabunni",
+        "alien-invasion-game"
       ]
     },
     {
@@ -77,7 +96,7 @@
         "ML-for-Software-Engineering",
         "microbiology_malaria",
         "Koth-character-identifier",
-        "Movies_ETL"
+        "spamdetectpublicdata"
       ]
     },
     {
@@ -88,7 +107,7 @@
         "Safeway-Coupon-Auto-Clipper",
         "UTK_Prints",
         "Jochen2Canvas",
-        "aws-python-lambdas"
+        "SixDOS"
       ]
     }
   ],
@@ -118,8 +137,8 @@
         "Vite",
         "Docker"
       ],
-      "updatedAt": "2026-06-04T00:59:02Z",
-      "pushedAt": "2026-06-04T00:58:59Z",
+      "updatedAt": "2026-06-04T03:15:20Z",
+      "pushedAt": "2026-06-04T03:15:16Z",
       "riskNotes": [
         "check config/credential hygiene"
       ],
@@ -138,8 +157,8 @@
       "title": "Serverless karaoke room",
       "description": "A static-first karaoke room with QR pairing, phones as remotes, WebRTC/P2P coordination, and cast-oriented playback.",
       "category": "Games and interactive apps",
-      "role": "interactive demo",
-      "maturity": "medium",
+      "role": "featured case study",
+      "maturity": "high",
       "demoPotential": "high",
       "demoKind": "multi-device",
       "demoUrl": "https://abhidya.github.io/CarryOkie/",
@@ -156,8 +175,8 @@
         "Static app",
         "Media"
       ],
-      "updatedAt": "2026-05-31T04:31:53Z",
-      "pushedAt": "2026-05-31T04:30:41Z",
+      "updatedAt": "2026-06-04T03:00:17Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": true,
@@ -189,8 +208,8 @@
         "Identity",
         "Monorepo"
       ],
-      "updatedAt": "2026-05-20T05:46:03Z",
-      "pushedAt": "2026-05-20T05:45:59Z",
+      "updatedAt": "2026-06-04T03:13:26Z",
+      "pushedAt": "2026-06-04T03:13:22Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": true,
@@ -226,9 +245,11 @@
         "TypeScript",
         "Vite"
       ],
-      "updatedAt": "2026-05-30T19:19:20Z",
-      "pushedAt": "2026-05-30T19:19:16Z",
-      "riskNotes": [],
+      "updatedAt": "2026-06-04T03:00:15Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
       "readmePath": "README.md",
       "featured": true,
       "outcome": "A Vite/React TypeScript game with rules, flow, and a static-friendly demo surface.",
@@ -242,7 +263,7 @@
     {
       "name": "Wazir",
       "title": "Peer-assisted social deduction game",
-      "description": "A modern Vite/React game with live demo intent and multiplayer/social interaction framing.",
+      "description": "A modern Vite/React game with live-link support and multiplayer/social interaction framing.",
       "category": "Games and interactive apps",
       "role": "featured case study",
       "maturity": "high",
@@ -263,12 +284,14 @@
         "React",
         "Vite"
       ],
-      "updatedAt": "2026-05-21T04:51:05Z",
-      "pushedAt": "2026-05-21T04:51:01Z",
-      "riskNotes": [],
+      "updatedAt": "2026-06-04T03:00:16Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
       "readmePath": "README.md",
       "featured": true,
-      "outcome": "A modern Vite/React game with live demo intent and multiplayer/social interaction framing.",
+      "outcome": "A modern Vite/React game with live-link support and multiplayer/social interaction framing.",
       "why": "Good example of shipping compact, playable, culturally specific web experiences.",
       "walkthrough": [
         "Open the demo",
@@ -296,8 +319,8 @@
         "AI tooling",
         "Automation"
       ],
-      "updatedAt": "2026-06-04T01:01:57Z",
-      "pushedAt": "2026-06-04T01:01:52Z",
+      "updatedAt": "2026-06-04T03:15:21Z",
+      "pushedAt": "2026-06-04T03:15:16Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": true,
@@ -332,8 +355,8 @@
         "Media",
         "Mobile"
       ],
-      "updatedAt": "2026-05-29T05:10:52Z",
-      "pushedAt": "2026-05-29T05:10:47Z",
+      "updatedAt": "2026-06-04T03:13:26Z",
+      "pushedAt": "2026-06-04T03:13:22Z",
       "riskNotes": [
         "check config/credential hygiene"
       ],
@@ -344,45 +367,44 @@
       "walkthrough": [
         "Review the README",
         "Inspect service entrypoints",
-        "Compare with nano-dlna"
+        "Compare the control surfaces"
       ]
     },
     {
-      "name": "nano-dlna",
-      "title": "Tiny DLNA/media server lab",
-      "description": "A Python/Docker media-service project with dashboard/tooling potential and sustained activity.",
-      "category": "Machine learning and data science",
+      "name": "JackboxAIAssistant",
+      "title": "Jackbox AI companion and connector",
+      "description": "A browser assistant and userscript connector for bringing AI suggestions into Jackbox-style party workflows.",
+      "category": "Automation and data pipelines",
       "role": "interactive demo",
-      "maturity": "high",
-      "demoPotential": "medium",
-      "demoKind": "hardware-gated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/nano-dlna",
-      "language": "Roff",
+      "maturity": "medium",
+      "demoPotential": "high",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/JackboxAIAssistant/",
+      "githubUrl": "https://github.com/abhidya/JackboxAIAssistant",
+      "language": "JavaScript",
       "stack": [
-        "docker",
-        "notebook",
-        "python"
+        "node",
+        "static-web"
       ],
       "tags": [
-        "Python",
-        "Docker",
-        "DLNA",
-        "Backend"
+        "AI assistant",
+        "Userscript",
+        "Static web",
+        "Browser tooling"
       ],
-      "updatedAt": "2025-07-11T04:26:58Z",
-      "pushedAt": "2025-07-11T04:26:53Z",
+      "updatedAt": "2026-06-04T03:13:26Z",
+      "pushedAt": "2026-06-04T03:13:22Z",
       "riskNotes": [
-        "check config/credential hygiene"
+        "node repo lacks lockfile"
       ],
       "readmePath": "README.md",
       "featured": true,
-      "outcome": "A Python/Docker media-service project with dashboard/tooling potential and sustained activity.",
-      "why": "Good backend/devtool story for packaging, local networking, and media workflow automation.",
+      "outcome": "A browser assistant and userscript connector for bringing AI suggestions into Jackbox-style party workflows.",
+      "why": "Shows static app polish, browser integration, userscript boundaries, and responsible setup documentation.",
       "walkthrough": [
-        "Run the service locally",
-        "Inspect Docker setup",
-        "Review dashboard/demo affordances"
+        "Open the static assistant",
+        "Install the connector locally",
+        "Review browser integration limits"
       ]
     }
   ],
@@ -404,89 +426,39 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2018-10-08T02:20:12Z",
-      "pushedAt": "2017-10-11T02:33:25Z",
-      "riskNotes": [
-        "no obvious run instructions"
-      ],
+      "updatedAt": "2026-06-04T03:02:18Z",
+      "pushedAt": "2026-06-04T03:02:15Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
     {
       "name": "alien-invasion-game",
       "title": "alien invasion game",
-      "description": "A basic game similiar to Galaga written in Python using Pygame library.",
+      "description": "Materially transformed GalagAI fork with a dependency-free canvas shooter, trained static pilot model, and modernized Python/DQN training path notes.",
       "category": "Games and interactive apps",
       "role": "interactive demo",
       "maturity": "medium",
       "demoPotential": "high",
-      "demoKind": "static-safe",
-      "demoUrl": "",
+      "demoKind": "live-hosted",
+      "demoUrl": "https://abhidya.github.io/alien-invasion-game/",
       "githubUrl": "https://github.com/abhidya/alien-invasion-game",
       "language": "Python",
       "stack": [
+        "python",
         "static-web"
       ],
       "tags": [
         "Games and interactive apps",
         "interactive demo",
+        "python",
         "static-web"
       ],
-      "updatedAt": "2019-10-03T22:01:54Z",
-      "pushedAt": "2019-09-29T06:25:48Z",
-      "riskNotes": [],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "Amazon-Coupon-FInder",
-      "title": "Amazon Coupon FInder",
-      "description": "Google search from Python.",
-      "category": "Automation and data pipelines",
-      "role": "supporting project",
-      "maturity": "medium",
-      "demoPotential": "low",
-      "demoKind": "script-install",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/Amazon-Coupon-FInder",
-      "language": "Python",
-      "stack": [
-        "python"
-      ],
-      "tags": [
-        "Automation and data pipelines",
-        "supporting project",
-        "python"
-      ],
-      "updatedAt": "2020-06-16T18:15:14Z",
-      "pushedAt": "2020-06-16T18:14:55Z",
+      "updatedAt": "2026-06-04T03:35:24Z",
+      "pushedAt": "2026-06-04T03:35:20Z",
       "riskNotes": [
-        "thin README",
         "python repo lacks visible tests"
       ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "Amazon-Review-Scraper",
-      "title": "Amazon Review Scraper",
-      "description": "A python library to scrape data from amazon.com",
-      "category": "Automation and data pipelines",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "low",
-      "demoKind": "script-install",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/Amazon-Review-Scraper",
-      "language": "Python",
-      "stack": [],
-      "tags": [
-        "Automation and data pipelines",
-        "archive/reference"
-      ],
-      "updatedAt": "2019-06-11T20:56:10Z",
-      "pushedAt": "2019-06-11T20:56:08Z",
-      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -510,37 +482,9 @@
         "interactive demo",
         "static-web"
       ],
-      "updatedAt": "2021-04-30T14:32:19Z",
-      "pushedAt": "2021-04-30T14:32:16Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "aws-python-lambdas",
-      "title": "aws python lambdas",
-      "description": "Collection of AWS Lambda functions in Python",
-      "category": "Automation and data pipelines",
-      "role": "supporting project",
-      "maturity": "medium",
-      "demoPotential": "low",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/aws-python-lambdas",
-      "language": "",
-      "stack": [],
-      "tags": [
-        "Automation and data pipelines",
-        "supporting project"
-      ],
-      "updatedAt": "2020-09-01T17:13:18Z",
-      "pushedAt": "2019-03-13T10:54:01Z",
-      "riskNotes": [
-        "check config/credential hygiene"
-      ],
+      "updatedAt": "2026-06-04T03:00:14Z",
+      "pushedAt": "2026-06-04T03:00:08Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -549,8 +493,8 @@
       "title": "Serverless karaoke room",
       "description": "A static-first karaoke room with QR pairing, phones as remotes, WebRTC/P2P coordination, and cast-oriented playback.",
       "category": "Games and interactive apps",
-      "role": "interactive demo",
-      "maturity": "medium",
+      "role": "featured case study",
+      "maturity": "high",
       "demoPotential": "high",
       "demoKind": "multi-device",
       "demoUrl": "https://abhidya.github.io/CarryOkie/",
@@ -567,8 +511,8 @@
         "Static app",
         "Media"
       ],
-      "updatedAt": "2026-05-31T04:31:53Z",
-      "pushedAt": "2026-05-31T04:30:41Z",
+      "updatedAt": "2026-06-04T03:00:17Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": true
@@ -593,8 +537,8 @@
         "interactive demo",
         "static-web"
       ],
-      "updatedAt": "2026-05-07T02:59:25Z",
-      "pushedAt": "2025-11-29T01:03:00Z",
+      "updatedAt": "2026-06-04T03:00:20Z",
+      "pushedAt": "2026-06-04T03:00:11Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -623,8 +567,8 @@
         "static-web",
         "unity"
       ],
-      "updatedAt": "2026-05-16T22:45:05Z",
-      "pushedAt": "2026-05-16T22:44:59Z",
+      "updatedAt": "2026-06-04T03:00:16Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
       "riskNotes": [
         "no obvious run instructions"
       ],
@@ -651,8 +595,8 @@
         "archive/reference",
         "python"
       ],
-      "updatedAt": "2020-05-13T13:25:45Z",
-      "pushedAt": "2020-05-12T20:30:49Z",
+      "updatedAt": "2026-06-04T02:58:49Z",
+      "pushedAt": "2026-06-04T02:58:45Z",
       "riskNotes": [
         "python repo lacks visible tests"
       ],
@@ -684,43 +628,13 @@
         "Vite",
         "Docker"
       ],
-      "updatedAt": "2026-06-04T00:59:02Z",
-      "pushedAt": "2026-06-04T00:58:59Z",
+      "updatedAt": "2026-06-04T03:15:20Z",
+      "pushedAt": "2026-06-04T03:15:16Z",
       "riskNotes": [
         "check config/credential hygiene"
       ],
       "readmePath": "README.md",
       "featured": true
-    },
-    {
-      "name": "developer-docs",
-      "title": "developer docs",
-      "description": "Developer Docs for the World ecosystem. Learn about our SDKs, Developer portal and World Chain.",
-      "category": "Machine learning and data science",
-      "role": "interactive demo",
-      "maturity": "medium",
-      "demoPotential": "high",
-      "demoKind": "static-safe",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/developer-docs",
-      "language": "",
-      "stack": [
-        "node",
-        "react"
-      ],
-      "tags": [
-        "Machine learning and data science",
-        "interactive demo",
-        "node",
-        "react"
-      ],
-      "updatedAt": "2026-05-19T04:26:37Z",
-      "pushedAt": "2026-05-19T04:27:29Z",
-      "riskNotes": [
-        "check config/credential hygiene"
-      ],
-      "readmePath": "README.md",
-      "featured": false
     },
     {
       "name": "devportfolio",
@@ -733,7 +647,7 @@
       "demoKind": "live-hosted",
       "demoUrl": "https://abhidya.github.io/devportfolio/",
       "githubUrl": "https://github.com/abhidya/devportfolio",
-      "language": "CSS",
+      "language": "JavaScript",
       "stack": [
         "gulp",
         "node",
@@ -746,8 +660,8 @@
         "node",
         "static-web"
       ],
-      "updatedAt": "2019-12-03T04:02:35Z",
-      "pushedAt": "2019-12-03T04:02:30Z",
+      "updatedAt": "2026-06-04T03:02:28Z",
+      "pushedAt": "2026-06-04T03:02:22Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -769,8 +683,8 @@
         "Automation and data pipelines",
         "archive/reference"
       ],
-      "updatedAt": "2018-10-08T02:19:45Z",
-      "pushedAt": "2018-08-14T13:22:59Z",
+      "updatedAt": "2026-06-04T03:02:20Z",
+      "pushedAt": "2026-06-04T03:02:17Z",
       "riskNotes": [
         "check config/credential hygiene"
       ],
@@ -782,8 +696,8 @@
       "title": "dynamics LCS automater",
       "description": "Selenium automation prototype for Microsoft Dynamics Lifecycle Services workflows, framed as authenticated-browser automation code.",
       "category": "Automation and data pipelines",
-      "role": "archive/reference",
-      "maturity": "low",
+      "role": "supporting project",
+      "maturity": "medium",
       "demoPotential": "low",
       "demoKind": "script-install",
       "demoUrl": "",
@@ -792,13 +706,11 @@
       "stack": [],
       "tags": [
         "Automation and data pipelines",
-        "archive/reference"
+        "supporting project"
       ],
-      "updatedAt": "2019-07-19T16:57:17Z",
-      "pushedAt": "2019-07-19T16:57:14Z",
-      "riskNotes": [
-        "empty or near-empty repository"
-      ],
+      "updatedAt": "2026-06-04T03:13:51Z",
+      "pushedAt": "2026-06-04T03:13:47Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -819,8 +731,8 @@
         "Archive / learning artifact",
         "supporting project"
       ],
-      "updatedAt": "2026-06-04T01:01:56Z",
-      "pushedAt": "2026-06-04T01:01:52Z",
+      "updatedAt": "2026-06-04T03:15:19Z",
+      "pushedAt": "2026-06-04T03:15:16Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -842,11 +754,9 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2019-04-11T18:22:59Z",
-      "pushedAt": "2018-04-30T01:50:30Z",
-      "riskNotes": [
-        "empty or near-empty repository"
-      ],
+      "updatedAt": "2026-06-04T03:02:22Z",
+      "pushedAt": "2026-06-04T03:02:18Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -867,8 +777,8 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2019-08-21T06:19:58Z",
-      "pushedAt": "2019-08-21T06:19:56Z",
+      "updatedAt": "2026-06-04T03:02:25Z",
+      "pushedAt": "2026-06-04T03:02:20Z",
       "riskNotes": [
         "thin README",
         "check config/credential hygiene"
@@ -896,12 +806,9 @@
         "interactive demo",
         "static-web"
       ],
-      "updatedAt": "2020-05-12T20:33:18Z",
-      "pushedAt": "2020-05-12T20:33:16Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
-      ],
+      "updatedAt": "2026-06-04T03:00:30Z",
+      "pushedAt": "2026-06-04T03:00:27Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -922,11 +829,9 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2019-04-11T18:36:00Z",
-      "pushedAt": "2018-09-20T01:58:00Z",
-      "riskNotes": [
-        "thin README"
-      ],
+      "updatedAt": "2026-06-04T03:02:27Z",
+      "pushedAt": "2026-06-04T03:02:22Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -950,8 +855,8 @@
         "supporting project",
         "roblox"
       ],
-      "updatedAt": "2026-06-02T04:18:44Z",
-      "pushedAt": "2026-05-31T19:26:42Z",
+      "updatedAt": "2026-06-04T03:15:20Z",
+      "pushedAt": "2026-06-04T03:15:16Z",
       "riskNotes": [
         "no obvious run instructions"
       ],
@@ -975,8 +880,8 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2020-12-11T01:41:16Z",
-      "pushedAt": "2019-08-26T20:18:04Z",
+      "updatedAt": "2026-06-04T03:02:27Z",
+      "pushedAt": "2026-06-04T03:02:23Z",
       "riskNotes": [
         "empty or near-empty repository"
       ],
@@ -1000,36 +905,9 @@
         "Archive / learning artifact",
         "supporting project"
       ],
-      "updatedAt": "2018-04-19T17:35:13Z",
-      "pushedAt": "2018-04-19T17:35:12Z",
-      "riskNotes": [
-        "no obvious run instructions"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "homebrew-i386-jos-elf-gcc",
-      "title": "homebrew i386 jos elf gcc",
-      "description": "For MIT 6.828 Operating System Engineering",
-      "category": "Archive / learning artifact",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "low",
-      "demoKind": "live-hosted",
-      "demoUrl": "http://pdos.csail.mit.edu/6.828/2014/tools.html",
-      "githubUrl": "https://github.com/abhidya/homebrew-i386-jos-elf-gcc",
-      "language": "Ruby",
-      "stack": [],
-      "tags": [
-        "Archive / learning artifact",
-        "archive/reference"
-      ],
-      "updatedAt": "2020-09-17T03:21:12Z",
-      "pushedAt": "2020-09-17T03:21:20Z",
-      "riskNotes": [
-        "thin README"
-      ],
+      "updatedAt": "2026-06-04T03:02:29Z",
+      "pushedAt": "2026-06-04T03:02:25Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -1050,19 +928,18 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2018-07-24T17:19:30Z",
-      "pushedAt": "2018-07-24T17:19:29Z",
+      "updatedAt": "2026-06-04T03:02:34Z",
+      "pushedAt": "2026-06-04T03:02:29Z",
       "riskNotes": [
-        "thin README",
-        "empty or near-empty repository"
+        "thin README"
       ],
       "readmePath": "README.md",
       "featured": false
     },
     {
       "name": "JackboxAIAssistant",
-      "title": "JackboxAIAssistant",
-      "description": "Browser assistant and userscript flow for Jackbox-style games, with a static UI and connector code to inspect.",
+      "title": "Jackbox AI companion and connector",
+      "description": "A browser assistant and userscript connector for bringing AI suggestions into Jackbox-style party workflows.",
       "category": "Automation and data pipelines",
       "role": "interactive demo",
       "maturity": "medium",
@@ -1076,18 +953,18 @@
         "static-web"
       ],
       "tags": [
-        "Automation and data pipelines",
-        "interactive demo",
-        "node",
-        "static-web"
+        "AI assistant",
+        "Userscript",
+        "Static web",
+        "Browser tooling"
       ],
-      "updatedAt": "2026-05-12T06:20:23Z",
-      "pushedAt": "2026-05-12T06:20:20Z",
+      "updatedAt": "2026-06-04T03:13:26Z",
+      "pushedAt": "2026-06-04T03:13:22Z",
       "riskNotes": [
         "node repo lacks lockfile"
       ],
       "readmePath": "README.md",
-      "featured": false
+      "featured": true
     },
     {
       "name": "Jochen2Canvas",
@@ -1138,11 +1015,10 @@
         "archive/reference",
         "notebook"
       ],
-      "updatedAt": "2020-02-27T23:28:35Z",
-      "pushedAt": "2020-02-27T23:28:33Z",
+      "updatedAt": "2026-06-04T02:59:16Z",
+      "pushedAt": "2026-06-04T02:59:12Z",
       "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
+        "thin README"
       ],
       "readmePath": "README.md",
       "featured": false
@@ -1171,66 +1047,13 @@
         "TypeScript",
         "Vite"
       ],
-      "updatedAt": "2026-05-30T19:19:20Z",
-      "pushedAt": "2026-05-30T19:19:16Z",
-      "riskNotes": [],
+      "updatedAt": "2026-06-04T03:00:15Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
       "readmePath": "README.md",
       "featured": true
-    },
-    {
-      "name": "kickstarter-analysis",
-      "title": "kickstarter analysis",
-      "description": "Performing Analysis on Kickstarter Data to Uncover Trends",
-      "category": "Archive / learning artifact",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "low",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/kickstarter-analysis",
-      "language": "",
-      "stack": [
-        "spreadsheet"
-      ],
-      "tags": [
-        "Archive / learning artifact",
-        "archive/reference",
-        "spreadsheet"
-      ],
-      "updatedAt": "2020-11-22T17:56:10Z",
-      "pushedAt": "2020-11-22T17:26:15Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "kickstarter-analysis-1",
-      "title": "kickstarter analysis 1",
-      "description": "Performing analysis on Kickstarter data to uncover trends",
-      "category": "Archive / learning artifact",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "low",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/kickstarter-analysis-1",
-      "language": "",
-      "stack": [],
-      "tags": [
-        "Archive / learning artifact",
-        "archive/reference"
-      ],
-      "updatedAt": "2020-11-22T18:05:28Z",
-      "pushedAt": "2020-11-22T18:04:04Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
-      ],
-      "readmePath": "README.md",
-      "featured": false
     },
     {
       "name": "Koth-character-identifier",
@@ -1243,7 +1066,7 @@
       "demoKind": "static-safe",
       "demoUrl": "",
       "githubUrl": "https://github.com/abhidya/Koth-character-identifier",
-      "language": "Python",
+      "language": "Jupyter Notebook",
       "stack": [
         "notebook",
         "python",
@@ -1256,8 +1079,8 @@
         "python",
         "static-web"
       ],
-      "updatedAt": "2021-12-15T02:06:50Z",
-      "pushedAt": "2022-12-08T06:22:18Z",
+      "updatedAt": "2026-06-04T02:58:52Z",
+      "pushedAt": "2026-06-04T02:58:49Z",
       "riskNotes": [
         "python repo lacks visible tests"
       ],
@@ -1281,8 +1104,8 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2018-10-30T18:30:50Z",
-      "pushedAt": "2018-10-30T18:30:48Z",
+      "updatedAt": "2026-06-04T03:02:38Z",
+      "pushedAt": "2026-06-04T03:02:34Z",
       "riskNotes": [
         "no obvious run instructions"
       ],
@@ -1306,8 +1129,8 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2025-12-03T02:45:35Z",
-      "pushedAt": "2025-12-03T02:45:32Z",
+      "updatedAt": "2026-06-04T03:02:40Z",
+      "pushedAt": "2026-06-04T03:02:36Z",
       "riskNotes": [
         "thin README",
         "empty or near-empty repository"
@@ -1337,10 +1160,9 @@
         "python",
         "static-web"
       ],
-      "updatedAt": "2019-03-19T15:51:44Z",
-      "pushedAt": "2019-03-19T15:51:43Z",
+      "updatedAt": "2026-06-04T02:58:51Z",
+      "pushedAt": "2026-06-04T02:58:47Z",
       "riskNotes": [
-        "no obvious run instructions",
         "python repo lacks visible tests"
       ],
       "readmePath": "README.md",
@@ -1351,8 +1173,8 @@
       "title": "ml c vsSnek",
       "description": "Small algorithm practice repo comparing Python and C++ approaches to self-dividing number logic.",
       "category": "Systems and algorithms",
-      "role": "archive/reference",
-      "maturity": "low",
+      "role": "supporting project",
+      "maturity": "medium",
       "demoPotential": "low",
       "demoKind": "narrated",
       "demoUrl": "",
@@ -1363,11 +1185,11 @@
       ],
       "tags": [
         "Systems and algorithms",
-        "archive/reference",
+        "supporting project",
         "cpp"
       ],
-      "updatedAt": "2018-04-26T20:44:07Z",
-      "pushedAt": "2018-04-26T20:44:06Z",
+      "updatedAt": "2026-06-04T03:02:42Z",
+      "pushedAt": "2026-06-04T03:02:38Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -1394,96 +1216,8 @@
         "notebook",
         "static-web"
       ],
-      "updatedAt": "2025-12-09T13:31:03Z",
-      "pushedAt": "2019-03-13T16:16:42Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "Movies_ETL",
-      "title": "Movies ETL",
-      "description": "Notebook ETL project that cleans and joins movie data for analysis; best viewed as a data pipeline walkthrough.",
-      "category": "Machine learning and data science",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "medium",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/Movies_ETL",
-      "language": "Jupyter Notebook",
-      "stack": [
-        "notebook"
-      ],
-      "tags": [
-        "Machine learning and data science",
-        "archive/reference",
-        "notebook"
-      ],
-      "updatedAt": "2021-02-03T02:52:30Z",
-      "pushedAt": "2021-02-03T02:52:28Z",
-      "riskNotes": [
-        "thin README"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "nano-dlna",
-      "title": "Tiny DLNA/media server lab",
-      "description": "A Python/Docker media-service project with dashboard/tooling potential and sustained activity.",
-      "category": "Machine learning and data science",
-      "role": "interactive demo",
-      "maturity": "high",
-      "demoPotential": "medium",
-      "demoKind": "hardware-gated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/nano-dlna",
-      "language": "Roff",
-      "stack": [
-        "docker",
-        "notebook",
-        "python"
-      ],
-      "tags": [
-        "Python",
-        "Docker",
-        "DLNA",
-        "Backend"
-      ],
-      "updatedAt": "2025-07-11T04:26:58Z",
-      "pushedAt": "2025-07-11T04:26:53Z",
-      "riskNotes": [
-        "check config/credential hygiene"
-      ],
-      "readmePath": "README.md",
-      "featured": true
-    },
-    {
-      "name": "Practice0",
-      "title": "Practice0",
-      "description": "First assignment",
-      "category": "Machine learning and data science",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "medium",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/Practice0",
-      "language": "Jupyter Notebook",
-      "stack": [
-        "notebook"
-      ],
-      "tags": [
-        "Machine learning and data science",
-        "archive/reference",
-        "notebook"
-      ],
-      "updatedAt": "2020-09-01T20:52:50Z",
-      "pushedAt": "2020-09-01T20:52:48Z",
+      "updatedAt": "2026-06-04T02:59:08Z",
+      "pushedAt": "2026-06-04T02:59:04Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -1508,8 +1242,8 @@
         "supporting project",
         "python"
       ],
-      "updatedAt": "2018-12-18T20:04:32Z",
-      "pushedAt": "2018-12-04T21:09:32Z",
+      "updatedAt": "2026-06-04T02:58:55Z",
+      "pushedAt": "2026-06-04T02:58:51Z",
       "riskNotes": [
         "python repo lacks visible tests"
       ],
@@ -1538,8 +1272,8 @@
         "python",
         "static-web"
       ],
-      "updatedAt": "2018-12-17T21:14:41Z",
-      "pushedAt": "2018-10-02T02:29:17Z",
+      "updatedAt": "2026-06-04T03:01:59Z",
+      "pushedAt": "2026-06-04T03:01:55Z",
       "riskNotes": [
         "python repo lacks visible tests"
       ],
@@ -1568,36 +1302,8 @@
         "notebook",
         "static-web"
       ],
-      "updatedAt": "2019-11-14T22:38:10Z",
-      "pushedAt": "2019-04-20T18:54:18Z",
-      "riskNotes": [],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "roblox-studio-rust-mcp-server",
-      "title": "roblox studio rust mcp server",
-      "description": "Standalone Roblox Studio MCP Server",
-      "category": "AI-assisted game/tooling",
-      "role": "supporting project",
-      "maturity": "medium",
-      "demoPotential": "medium",
-      "demoKind": "hardware-gated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/roblox-studio-rust-mcp-server",
-      "language": "Luau",
-      "stack": [
-        "roblox",
-        "rust"
-      ],
-      "tags": [
-        "AI-assisted game/tooling",
-        "supporting project",
-        "roblox",
-        "rust"
-      ],
-      "updatedAt": "2026-05-31T07:43:23Z",
-      "pushedAt": "2026-06-03T04:46:36Z",
+      "updatedAt": "2026-06-04T02:58:56Z",
+      "pushedAt": "2026-06-04T02:58:52Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -1622,8 +1328,8 @@
         "AI tooling",
         "Automation"
       ],
-      "updatedAt": "2026-06-04T01:01:57Z",
-      "pushedAt": "2026-06-04T01:01:52Z",
+      "updatedAt": "2026-06-04T03:15:21Z",
+      "pushedAt": "2026-06-04T03:15:16Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": true
@@ -1645,11 +1351,9 @@
         "Automation and data pipelines",
         "archive/reference"
       ],
-      "updatedAt": "2026-02-03T02:54:45Z",
-      "pushedAt": "2023-08-21T21:40:16Z",
-      "riskNotes": [
-        "empty or near-empty repository"
-      ],
+      "updatedAt": "2026-06-04T03:02:44Z",
+      "pushedAt": "2026-06-04T03:02:40Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -1673,8 +1377,8 @@
         "interactive demo",
         "static-web"
       ],
-      "updatedAt": "2025-11-14T04:20:40Z",
-      "pushedAt": "2025-11-14T04:20:36Z",
+      "updatedAt": "2026-06-04T03:00:19Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -1701,10 +1405,9 @@
         "python",
         "static-web"
       ],
-      "updatedAt": "2019-01-22T23:35:28Z",
-      "pushedAt": "2018-11-15T16:26:31Z",
+      "updatedAt": "2026-06-04T02:59:00Z",
+      "pushedAt": "2026-06-04T02:58:56Z",
       "riskNotes": [
-        "no obvious run instructions",
         "python repo lacks visible tests"
       ],
       "readmePath": "README.md",
@@ -1730,65 +1433,9 @@
         "supporting project",
         "notebook"
       ],
-      "updatedAt": "2019-03-28T23:25:05Z",
-      "pushedAt": "2019-03-28T23:25:05Z",
-      "riskNotes": [
-        "no obvious run instructions"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "stock-analysis",
-      "title": "stock analysis",
-      "description": "Excel/VBA analysis artifact for stock data, useful as spreadsheet automation and archive context.",
-      "category": "Archive / learning artifact",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "low",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/stock-analysis",
-      "language": "",
-      "stack": [
-        "spreadsheet"
-      ],
-      "tags": [
-        "Archive / learning artifact",
-        "archive/reference",
-        "spreadsheet"
-      ],
-      "updatedAt": "2020-12-06T16:13:15Z",
-      "pushedAt": "2020-12-06T06:47:13Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "students",
-      "title": "students",
-      "description": "information about/fo students of fdac20",
-      "category": "Archive / learning artifact",
-      "role": "archive/reference",
-      "maturity": "low",
-      "demoPotential": "low",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/students",
-      "language": "",
-      "stack": [],
-      "tags": [
-        "Archive / learning artifact",
-        "archive/reference"
-      ],
-      "updatedAt": "2020-08-20T21:24:52Z",
-      "pushedAt": "2020-08-20T21:24:50Z",
-      "riskNotes": [
-        "no obvious run instructions"
-      ],
+      "updatedAt": "2026-06-04T02:59:02Z",
+      "pushedAt": "2026-06-04T02:58:58Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -1809,10 +1456,9 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2025-09-26T13:08:36Z",
-      "pushedAt": "2025-09-26T13:08:36Z",
+      "updatedAt": "2026-06-04T03:02:52Z",
+      "pushedAt": "2026-06-04T03:02:49Z",
       "riskNotes": [
-        "thin README",
         "empty or near-empty repository"
       ],
       "readmePath": "README.md",
@@ -1838,12 +1484,9 @@
         "interactive demo",
         "static-web"
       ],
-      "updatedAt": "2025-09-26T13:32:46Z",
-      "pushedAt": "2025-09-26T13:32:43Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
-      ],
+      "updatedAt": "2026-06-04T03:00:44Z",
+      "pushedAt": "2026-06-04T03:00:40Z",
+      "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
     },
@@ -1867,8 +1510,8 @@
         "archive/reference",
         "cpp"
       ],
-      "updatedAt": "2017-10-17T14:54:36Z",
-      "pushedAt": "2017-10-17T14:58:54Z",
+      "updatedAt": "2026-06-04T03:02:49Z",
+      "pushedAt": "2026-06-04T03:02:46Z",
       "riskNotes": [
         "thin README",
         "no obvious run instructions"
@@ -1893,8 +1536,8 @@
         "Archive / learning artifact",
         "archive/reference"
       ],
-      "updatedAt": "2023-10-08T06:34:21Z",
-      "pushedAt": "2017-10-22T20:57:33Z",
+      "updatedAt": "2026-06-04T03:02:51Z",
+      "pushedAt": "2026-06-04T03:02:47Z",
       "riskNotes": [
         "check config/credential hygiene"
       ],
@@ -1921,8 +1564,8 @@
         "archive/reference",
         "notebook"
       ],
-      "updatedAt": "2019-04-04T19:17:09Z",
-      "pushedAt": "2019-03-08T01:52:33Z",
+      "updatedAt": "2026-06-04T02:59:03Z",
+      "pushedAt": "2026-06-04T02:59:00Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -1947,8 +1590,8 @@
         "interactive demo",
         "static-web"
       ],
-      "updatedAt": "2018-10-08T02:20:07Z",
-      "pushedAt": "2018-03-28T04:21:27Z",
+      "updatedAt": "2026-06-04T03:01:01Z",
+      "pushedAt": "2026-06-04T03:00:57Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -1973,39 +1616,10 @@
         "archive/reference",
         "notebook"
       ],
-      "updatedAt": "2026-05-25T09:48:31Z",
-      "pushedAt": "2019-09-19T15:45:30Z",
+      "updatedAt": "2026-06-04T02:59:11Z",
+      "pushedAt": "2026-06-04T02:59:06Z",
       "riskNotes": [
         "thin README"
-      ],
-      "readmePath": "README.md",
-      "featured": false
-    },
-    {
-      "name": "utkML_projects",
-      "title": "utkML projects",
-      "description": "Projects for Machine Learning Club at UTK",
-      "category": "Machine learning and data science",
-      "role": "supporting project",
-      "maturity": "medium",
-      "demoPotential": "medium",
-      "demoKind": "narrated",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/abhidya/utkML_projects",
-      "language": "Jupyter Notebook",
-      "stack": [
-        "notebook"
-      ],
-      "tags": [
-        "Machine learning and data science",
-        "supporting project",
-        "notebook"
-      ],
-      "updatedAt": "2020-10-29T23:23:46Z",
-      "pushedAt": "2020-10-29T23:23:44Z",
-      "riskNotes": [
-        "thin README",
-        "no obvious run instructions"
       ],
       "readmePath": "README.md",
       "featured": false
@@ -2033,8 +1647,8 @@
         "Media",
         "Mobile"
       ],
-      "updatedAt": "2026-05-29T05:10:52Z",
-      "pushedAt": "2026-05-29T05:10:47Z",
+      "updatedAt": "2026-06-04T03:13:26Z",
+      "pushedAt": "2026-06-04T03:13:22Z",
       "riskNotes": [
         "check config/credential hygiene"
       ],
@@ -2047,7 +1661,7 @@
       "description": "adds heads up display and live animations to a wall using a projector",
       "category": "Web apps and frontend",
       "role": "interactive demo",
-      "maturity": "low",
+      "maturity": "medium",
       "demoPotential": "high",
       "demoKind": "static-safe",
       "demoUrl": "",
@@ -2061,8 +1675,8 @@
         "interactive demo",
         "static-web"
       ],
-      "updatedAt": "2025-01-19T03:52:32Z",
-      "pushedAt": "2025-01-19T03:52:30Z",
+      "updatedAt": "2026-06-04T03:01:21Z",
+      "pushedAt": "2026-06-04T03:01:18Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": false
@@ -2070,7 +1684,7 @@
     {
       "name": "Wazir",
       "title": "Peer-assisted social deduction game",
-      "description": "A modern Vite/React game with live demo intent and multiplayer/social interaction framing.",
+      "description": "A modern Vite/React game with live-link support and multiplayer/social interaction framing.",
       "category": "Games and interactive apps",
       "role": "featured case study",
       "maturity": "high",
@@ -2091,9 +1705,11 @@
         "React",
         "Vite"
       ],
-      "updatedAt": "2026-05-21T04:51:05Z",
-      "pushedAt": "2026-05-21T04:51:01Z",
-      "riskNotes": [],
+      "updatedAt": "2026-06-04T03:00:16Z",
+      "pushedAt": "2026-06-04T03:00:10Z",
+      "riskNotes": [
+        "check config/credential hygiene"
+      ],
       "readmePath": "README.md",
       "featured": true
     },
@@ -2117,8 +1733,8 @@
         "Identity",
         "Monorepo"
       ],
-      "updatedAt": "2026-05-20T05:46:03Z",
-      "pushedAt": "2026-05-20T05:45:59Z",
+      "updatedAt": "2026-06-04T03:13:26Z",
+      "pushedAt": "2026-06-04T03:13:22Z",
       "riskNotes": [],
       "readmePath": "README.md",
       "featured": true

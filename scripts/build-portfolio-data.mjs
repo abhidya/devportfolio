@@ -15,7 +15,7 @@ const caseStudyNames = [
   "Wazir",
   "RobloxAIDev",
   "WallDisplay",
-  "nano-dlna",
+  "JackboxAIAssistant",
 ];
 
 const curated = {
@@ -49,7 +49,7 @@ const curated = {
   },
   Wazir: {
     title: "Peer-assisted social deduction game",
-    outcome: "A modern Vite/React game with live demo intent and multiplayer/social interaction framing.",
+    outcome: "A modern Vite/React game with live-link support and multiplayer/social interaction framing.",
     why: "Good example of shipping compact, playable, culturally specific web experiences.",
     path: ["Open the demo", "Start a local round", "Review multiplayer/readiness notes"],
     tags: ["Game", "P2P", "React", "Vite"],
@@ -65,15 +65,15 @@ const curated = {
     title: "Local media control plane",
     outcome: "A multi-surface media stack combining Python services, Docker, web UI, and mobile/control surfaces.",
     why: "Shows full-stack hardware-adjacent engineering and real-world media-control constraints.",
-    path: ["Review the README", "Inspect service entrypoints", "Compare with nano-dlna"],
+    path: ["Review the README", "Inspect service entrypoints", "Compare the control surfaces"],
     tags: ["FastAPI", "Docker", "Media", "Mobile"],
   },
-  "nano-dlna": {
-    title: "Tiny DLNA/media server lab",
-    outcome: "A Python/Docker media-service project with dashboard/tooling potential and sustained activity.",
-    why: "Good backend/devtool story for packaging, local networking, and media workflow automation.",
-    path: ["Run the service locally", "Inspect Docker setup", "Review dashboard/demo affordances"],
-    tags: ["Python", "Docker", "DLNA", "Backend"],
+  JackboxAIAssistant: {
+    title: "Jackbox AI companion and connector",
+    outcome: "A browser assistant and userscript connector for bringing AI suggestions into Jackbox-style party workflows.",
+    why: "Shows static app polish, browser integration, userscript boundaries, and responsible setup documentation.",
+    path: ["Open the static assistant", "Install the connector locally", "Review browser integration limits"],
+    tags: ["AI assistant", "Userscript", "Static web", "Browser tooling"],
   },
 };
 
@@ -110,6 +110,14 @@ const portfolioDescriptions = {
     "Tiny utility repo for calculating Temu order totals, kept as a minimal archive entry.",
   TemuOrderScraper:
     "Static web utility for exploring Temu order data flows, best shown through the HTML demo and source walkthrough.",
+  "alien-invasion-game":
+    "Materially transformed GalagAI fork with a dependency-free canvas shooter, trained static pilot model, and modernized Python/DQN training path notes.",
+};
+
+const relevantForks = new Set(["alien-invasion-game", "devportfolio"]);
+
+const demoUrlOverrides = {
+  "alien-invasion-game": "https://abhidya.github.io/alien-invasion-game/",
 };
 
 const categoryFallbacks = {
@@ -136,13 +144,13 @@ const tour = [
     id: "systems",
     title: "Inspect systems",
     copy: "Product-shaped repos with architecture, deployment, and maintainability signals.",
-    repos: ["CustomCard", "WorldPrize", "WallDisplay", "nano-dlna"],
+    repos: ["CustomCard", "WorldPrize", "WallDisplay", "devportfolio"],
   },
   {
     id: "play",
     title: "Play demos",
     copy: "Static-safe and browser-first projects visitors can try without credentials.",
-    repos: ["CarryOkie", "Karachi-Coup", "Wazir", "Chameleon", "serabunni"],
+    repos: ["CarryOkie", "Karachi-Coup", "Wazir", "Chameleon", "serabunni", "alien-invasion-game"],
   },
   {
     id: "game-tools",
@@ -154,23 +162,24 @@ const tour = [
     id: "data",
     title: "Trace the data/ML origin",
     copy: "Older research, notebooks, classifiers, and data-cleaning work framed as the learning arc.",
-    repos: ["ML-for-Software-Engineering", "microbiology_malaria", "Koth-character-identifier", "Movies_ETL"],
+    repos: ["ML-for-Software-Engineering", "microbiology_malaria", "Koth-character-identifier", "spamdetectpublicdata"],
   },
   {
     id: "automation",
     title: "Review practical automations",
     copy: "Small utilities, scrapers, and scripts best presented with careful setup and safety notes.",
-    repos: ["Safeway-Coupon-Auto-Clipper", "UTK_Prints", "Jochen2Canvas", "aws-python-lambdas"],
+    repos: ["Safeway-Coupon-Auto-Clipper", "UTK_Prints", "Jochen2Canvas", "SixDOS"],
   },
 ];
 
 function demoUrl(repo) {
+  if (demoUrlOverrides[repo.name]) return demoUrlOverrides[repo.name];
   return repo.homepage || repo.pagesUrl || "";
 }
 
 function demoKind(repo) {
   if (["CarryOkie", "Karachi-Coup", "Wazir", "QR-Tag"].includes(repo.name)) return "multi-device";
-  if (repo.stack.includes("roblox") || repo.stack.includes("unity") || ["WallDisplay", "nano-dlna"].includes(repo.name)) return "hardware-gated";
+  if (repo.stack.includes("roblox") || repo.stack.includes("unity") || repo.name === "WallDisplay") return "hardware-gated";
   if (/coupon|scraper|automater|bot|canvas/i.test(repo.name)) return "script-install";
   if (demoUrl(repo)) return "live-hosted";
   if (repo.stack.includes("vite") || repo.stack.includes("react") || repo.stack.includes("static-web")) return "static-safe";
@@ -186,7 +195,13 @@ function friendlyDescription(repo) {
   return `${fallback} Stack signals: ${repo.stack.slice(0, 3).join(", ")}.`;
 }
 
-const repos = inventory.map((repo) => ({
+const visibleInventory = inventory.filter((repo) => !repo.fork || relevantForks.has(repo.name));
+const excludedForks = inventory
+  .filter((repo) => repo.fork && !relevantForks.has(repo.name))
+  .map((repo) => repo.name)
+  .sort();
+
+const repos = visibleInventory.map((repo) => ({
   name: repo.name,
   title: curated[repo.name]?.title || repo.name.replaceAll("-", " ").replaceAll("_", " "),
   description: friendlyDescription(repo),
@@ -234,10 +249,13 @@ const data = {
   },
   stats: {
     repoCount: repos.length,
+    sourceRepoCount: inventory.length,
+    hiddenForkCount: excludedForks.length,
     liveDemoCount,
     featuredCount: caseStudies.length,
     categoryCount: categories.length,
   },
+  excludedForks,
   categories,
   filters: ["All", "Live Link", "Runnable", "Featured", "Games", "AI / ML", "Automation", "Web", "Backend", "Archive"],
   tour,

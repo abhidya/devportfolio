@@ -135,7 +135,7 @@
         var stats = $('#hero-stats');
         if (!stats) return;
         stats.innerHTML = [
-            ['Repos', data.stats.repoCount],
+            ['Original repos', data.stats.repoCount],
             ['Categories', data.stats.categoryCount],
             ['Live links', data.stats.liveDemoCount],
             ['Case studies', data.stats.featuredCount]

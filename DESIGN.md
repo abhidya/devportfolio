@@ -8,11 +8,11 @@
 
 ## Brand
 - Personality: Vaporwave engineering arcade: practical, curious, builder-led, neon, and a little surreal without hiding the work.
-- Trust signals: Clear repo count, direct GitHub links, live demo badges, stack chips, verification/readiness notes, and honest archive labels for older projects.
+- Trust signals: Clear original-repo count, direct GitHub links, live link badges, stack chips, verification/readiness notes, honest archive labels for older projects, and explicit filtering of upstream forks.
 - Avoid: Generic resume-template copy, flat lists of repo names, corporate polish that hides experimental work, and overclaiming live readiness for hardware-gated or legacy projects.
 
 ## Product goals
-- Goals: Help visitors understand Manny Bhidya's body of work quickly, route them to runnable demos, and explain how older learning artifacts connect to newer product/game/system work.
+- Goals: Help visitors understand Manny Bhidya's original body of work quickly, route them to runnable demos, and explain how older learning artifacts connect to newer product/game/system work.
 - Non-goals: Replace GitHub, deeply document every repo inline, or force every old project into a featured case study.
 - Success signals: Visitor can pick a path in one screen, find live demos without parsing GitHub, and understand why each featured project matters.
 
@@ -24,10 +24,11 @@
 ## Information architecture
 - Primary navigation: Tour, Case Studies, Repo Atlas, Demos, Experience.
 - Core routes/screens: Single-page static site with anchor sections and client-rendered repo data.
-- Content hierarchy: Hero stats and CTAs first; guided tour second; six curated case studies third; searchable/filterable repo atlas fourth; demo taxonomy fifth; experience timeline last.
+- Content hierarchy: Hero stats and CTAs first; guided tour second; eight curated case studies third; searchable/filterable original repo atlas fourth; demo taxonomy fifth; experience timeline last.
 
 ## Design principles
-- Make the archive legible: Group 63 repos into categories and roles before exposing the full list.
+- Make the archive legible: Group original public repos into categories and roles before exposing the full list.
+- Filter irrelevant forks: Exclude upstream/course/template forks from the public atlas unless a fork has become a materially transformed portfolio artifact.
 - Be honest about readiness: Separate live, static-safe, multi-device, hardware-gated, script/install, and narrated demos.
 - Tradeoffs: Keep the current static serverless repo for deployment simplicity, even though a future Vite rewrite would make generated routes and visual testing cleaner.
 
