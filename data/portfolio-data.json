@@ -796,10 +796,9 @@
       "updatedAt": "2019-07-19T16:57:17Z",
       "pushedAt": "2019-07-19T16:57:14Z",
       "riskNotes": [
-        "missing README",
         "empty or near-empty repository"
       ],
-      "readmePath": null,
+      "readmePath": "README.md",
       "featured": false
     },
     {
@@ -1551,8 +1550,8 @@
       "title": "Rewteet graph",
       "description": "Builds a matrix of twitter users that retweeted each others content. ",
       "category": "Machine learning and data science",
-      "role": "archive/reference",
-      "maturity": "low",
+      "role": "supporting project",
+      "maturity": "medium",
       "demoPotential": "medium",
       "demoKind": "static-safe",
       "demoUrl": "",
@@ -1564,17 +1563,14 @@
       ],
       "tags": [
         "Machine learning and data science",
-        "archive/reference",
+        "supporting project",
         "notebook",
         "static-web"
       ],
       "updatedAt": "2019-11-14T22:38:10Z",
       "pushedAt": "2019-04-20T18:54:18Z",
-      "riskNotes": [
-        "missing README",
-        "no obvious run instructions"
-      ],
-      "readmePath": null,
+      "riskNotes": [],
+      "readmePath": "README.md",
       "featured": false
     },
     {
@@ -1716,10 +1712,10 @@
     {
       "name": "spamdetectpublicdata",
       "title": "spamdetectpublicdata",
-      "description": "Machine learning and data science repo with archive/reference portfolio posture and notebook evidence.",
+      "description": "Machine learning and data science repo with supporting project portfolio posture and notebook evidence.",
       "category": "Machine learning and data science",
-      "role": "archive/reference",
-      "maturity": "low",
+      "role": "supporting project",
+      "maturity": "medium",
       "demoPotential": "medium",
       "demoKind": "narrated",
       "demoUrl": "",
@@ -1730,16 +1726,15 @@
       ],
       "tags": [
         "Machine learning and data science",
-        "archive/reference",
+        "supporting project",
         "notebook"
       ],
       "updatedAt": "2019-03-28T23:25:05Z",
       "pushedAt": "2019-03-28T23:25:05Z",
       "riskNotes": [
-        "missing README",
         "no obvious run instructions"
       ],
-      "readmePath": null,
+      "readmePath": "README.md",
       "featured": false
     },
     {
@@ -1816,10 +1811,10 @@
       "updatedAt": "2025-09-26T13:08:36Z",
       "pushedAt": "2025-09-26T13:08:36Z",
       "riskNotes": [
-        "missing README",
+        "thin README",
         "empty or near-empty repository"
       ],
-      "readmePath": null,
+      "readmePath": "README.md",
       "featured": false
     },
     {
@@ -1927,11 +1922,8 @@
       ],
       "updatedAt": "2019-04-04T19:17:09Z",
       "pushedAt": "2019-03-08T01:52:33Z",
-      "riskNotes": [
-        "missing README",
-        "empty or near-empty repository"
-      ],
-      "readmePath": null,
+      "riskNotes": [],
+      "readmePath": "README.md",
       "featured": false
     },
     {
@@ -2070,11 +2062,8 @@
       ],
       "updatedAt": "2025-01-19T03:52:32Z",
       "pushedAt": "2025-01-19T03:52:30Z",
-      "riskNotes": [
-        "missing README",
-        "no obvious run instructions"
-      ],
-      "readmePath": null,
+      "riskNotes": [],
+      "readmePath": "README.md",
       "featured": false
     },
     {
