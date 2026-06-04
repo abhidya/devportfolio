@@ -28,8 +28,8 @@ http://localhost:4173
 The portfolio data is generated from the local clone inventory in the parent workspace:
 
 ```sh
-node ../_portfolio-rehab/scan-repos.mjs
-node ../_portfolio-rehab/build-portfolio-data.mjs
+node scripts/scan-repos.mjs
+node scripts/build-portfolio-data.mjs
 ```
 
 The generated runtime file is:
